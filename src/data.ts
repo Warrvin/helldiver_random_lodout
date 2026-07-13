@@ -31,6 +31,7 @@ export const WARBONDS: Warbond[] = [
 
 export const ITEMS: LoadoutItem[] = [
   // --- PRIMARY WEAPONS ---
+  // Assault Rifles
   {
     id: 'liberator',
     nameRu: 'AR-23 «Освободитель»',
@@ -42,7 +43,7 @@ export const ITEMS: LoadoutItem[] = [
   },
   {
     id: 'liberator-penetrator',
-    nameRu: 'AR-23P «Освободитель-пронзатель»',
+    nameRu: 'AR-23P «Освободитель-пробивной»',
     nameEn: 'AR-23P Liberator Penetrator',
     category: 'primary',
     warbond: 'default',
@@ -51,10 +52,46 @@ export const ITEMS: LoadoutItem[] = [
   },
   {
     id: 'liberator-concussive',
-    nameRu: 'AR-23 «Взрывной освободитель»',
-    nameEn: 'AR-23 Concussive',
+    nameRu: 'AR-23C «Взрывной освободитель»',
+    nameEn: 'AR-23C Liberator Concussive',
     category: 'primary',
     warbond: 'steeled',
+    typeRu: 'Штурмовая винтовка',
+    typeEn: 'Assault Rifle'
+  },
+  {
+    id: 'sta-52-ar',
+    nameRu: 'StA-52 «Штурмовая винтовка»',
+    nameEn: 'StA-52 Assault Rifle',
+    category: 'primary',
+    warbond: 'redacted',
+    typeRu: 'Штурмовая винтовка',
+    typeEn: 'Assault Rifle'
+  },
+  {
+    id: 'ar-32-pacifier',
+    nameRu: 'AR-32 «Миротворец»',
+    nameEn: 'AR-32 Pacifier',
+    category: 'primary',
+    warbond: 'truth',
+    typeRu: 'Штурмовая винтовка',
+    typeEn: 'Assault Rifle'
+  },
+  {
+    id: 'ar-2-coyote',
+    nameRu: 'AR-2 «Койот»',
+    nameEn: 'AR-2 Coyote',
+    category: 'primary',
+    warbond: 'redacted',
+    typeRu: 'Штурмовая винтовка',
+    typeEn: 'Assault Rifle'
+  },
+  {
+    id: 'ma5c-ar',
+    nameRu: 'MA5C «Штурмовая винтовка»',
+    nameEn: 'MA5C Assault Rifle',
+    category: 'primary',
+    warbond: 'redacted',
     typeRu: 'Штурмовая винтовка',
     typeEn: 'Assault Rifle'
   },
@@ -68,6 +105,15 @@ export const ITEMS: LoadoutItem[] = [
     typeEn: 'Assault Rifle'
   },
   {
+    id: 'tenderizer',
+    nameRu: 'AR-61 «Нежинка»',
+    nameEn: 'AR-61 Tenderizer',
+    category: 'primary',
+    warbond: 'polar',
+    typeRu: 'Штурмовая винтовка',
+    typeEn: 'Assault Rifle'
+  },
+  {
     id: 'adjudicator',
     nameRu: 'BR-14 «Судья»',
     nameEn: 'BR-14 Adjudicator',
@@ -77,8 +123,55 @@ export const ITEMS: LoadoutItem[] = [
     typeEn: 'Assault Rifle'
   },
   {
+    id: 'one-two-ar',
+    nameRu: 'AR/GL-21 «Раз-два»',
+    nameEn: 'AR/GL-21 One-Two',
+    category: 'primary',
+    warbond: 'redacted',
+    typeRu: 'Штурмовая винтовка',
+    typeEn: 'Assault Rifle'
+  },
+  {
+    id: 'suppressor-ar',
+    nameRu: 'AR-59 «Глушитель»',
+    nameEn: 'AR-59 Suppressor',
+    category: 'primary',
+    warbond: 'redacted',
+    typeRu: 'Штурмовая винтовка',
+    typeEn: 'Assault Rifle'
+  },
+
+  // Marksman Rifles
+  {
+    id: 'r-2-amendment',
+    nameRu: 'R-2 «Поправка»',
+    nameEn: 'R-2 Amendment',
+    category: 'primary',
+    warbond: 'redacted',
+    typeRu: 'Марксманская винтовка',
+    typeEn: 'Marksman Rifle'
+  },
+  {
+    id: 'r-2124-constitution',
+    nameRu: 'R-2124 «Конституция»',
+    nameEn: 'R-2124 Constitution',
+    category: 'primary',
+    warbond: 'default',
+    typeRu: 'Марксманская винтовка',
+    typeEn: 'Marksman Rifle'
+  },
+  {
+    id: 'r-6-deadeye',
+    nameRu: 'R-6 «Меткий глаз»',
+    nameEn: 'R-6 Deadeye',
+    category: 'primary',
+    warbond: 'redacted',
+    typeRu: 'Марксманская винтовка',
+    typeEn: 'Marksman Rifle'
+  },
+  {
     id: 'diligence',
-    nameRu: 'R-63 «Равновесие»',
+    nameRu: 'R-63 «Прилежание»',
     nameEn: 'R-63 Diligence',
     category: 'primary',
     warbond: 'default',
@@ -87,7 +180,7 @@ export const ITEMS: LoadoutItem[] = [
   },
   {
     id: 'diligence-counter-sniper',
-    nameRu: 'R-63CS «Равновесие-антиснайпер»',
+    nameRu: 'R-63CS «Прилежание-антиснайпер»',
     nameEn: 'R-63CS Diligence Counter Sniper',
     category: 'primary',
     warbond: 'default',
@@ -95,11 +188,58 @@ export const ITEMS: LoadoutItem[] = [
     typeEn: 'Marksman Rifle'
   },
   {
+    id: 'r-72-censor',
+    nameRu: 'R-72 «Цензор»',
+    nameEn: 'R-72 Censor',
+    category: 'primary',
+    warbond: 'truth',
+    typeRu: 'Марксманская винтовка',
+    typeEn: 'Marksman Rifle'
+  },
+  {
+    id: 'r-4-hyena',
+    nameRu: 'R-4 «Гиена»',
+    nameEn: 'R-4 Hyena',
+    category: 'primary',
+    warbond: 'redacted',
+    typeRu: 'Марксманская винтовка',
+    typeEn: 'Marksman Rifle'
+  },
+
+  // Submachine Guns
+  {
     id: 'knight',
     nameRu: 'MP-98 «Рыцарь»',
     nameEn: 'MP-98 Knight',
     category: 'primary',
     warbond: 'default',
+    typeRu: 'Пистолет-пулемет',
+    typeEn: 'Submachine Gun'
+  },
+  {
+    id: 'sta-11-smg',
+    nameRu: 'StA-11 «Пистолет-пулемет»',
+    nameEn: 'StA-11 SMG',
+    category: 'primary',
+    warbond: 'redacted',
+    typeRu: 'Пистолет-пулемет',
+    typeEn: 'Submachine Gun'
+  },
+  {
+    id: 'm7s-smg',
+    nameRu: 'M7S «Пистолет-пулемет»',
+    nameEn: 'M7S SMG',
+    category: 'primary',
+    warbond: 'redacted',
+    typeRu: 'Пистолет-пулемет',
+    typeEn: 'Submachine Gun'
+  },
+  {
+    id: 'smg-32-reprimand',
+    nameRu: 'SMG-32 «Выговор»',
+    nameEn: 'SMG-32 Reprimand',
+    category: 'primary',
+    warbond: 'truth',
     typeRu: 'Пистолет-пулемет',
     typeEn: 'Submachine Gun'
   },
@@ -122,14 +262,25 @@ export const ITEMS: LoadoutItem[] = [
     typeEn: 'Submachine Gun'
   },
   {
-    id: 'halt-smg',
-    nameRu: 'SMG-20 «Преграда»',
-    nameEn: 'SMG-20 Halt',
+    id: 'smg-flam-34-stoker',
+    nameRu: 'SMG/FLAM-34 «Кочегар»',
+    nameEn: 'SMG/FLAM-34 Stoker',
     category: 'primary',
-    warbond: 'truth',
+    warbond: 'flame',
     typeRu: 'Пистолет-пулемет',
     typeEn: 'Submachine Gun'
   },
+  {
+    id: 'smg-203-gallant',
+    nameRu: 'SMG-203 «Галантный»',
+    nameEn: 'SMG-203 Gallant',
+    category: 'primary',
+    warbond: 'redacted',
+    typeRu: 'Пистолет-пулемет',
+    typeEn: 'Submachine Gun'
+  },
+
+  // Shotguns
   {
     id: 'punisher',
     nameRu: 'SG-8 «Каратель»',
@@ -149,6 +300,100 @@ export const ITEMS: LoadoutItem[] = [
     typeEn: 'Pump-Action Shotgun'
   },
   {
+    id: 'sg-20-halt',
+    nameRu: 'SG-20 «Стой»',
+    nameEn: 'SG-20 Halt',
+    category: 'primary',
+    warbond: 'redacted',
+    typeRu: 'Дробовик',
+    typeEn: 'Shotgun'
+  },
+  {
+    id: 'cookout',
+    nameRu: 'SG-451 «Кулинар»',
+    nameEn: 'SG-451 Cookout',
+    category: 'primary',
+    warbond: 'flame',
+    typeRu: 'Помповый дробовик',
+    typeEn: 'Pump-Action Shotgun'
+  },
+  {
+    id: 'double-freedom',
+    nameRu: 'DBS-2 «Двойная свобода»',
+    nameEn: 'DBS-2 Double Freedom',
+    category: 'primary',
+    warbond: 'redacted',
+    typeRu: 'Двуствольный дробовик',
+    typeEn: 'Double-Barrel Shotgun'
+  },
+  {
+    id: 'm90a-shotgun',
+    nameRu: 'M90A «Дробовик»',
+    nameEn: 'M90A Shotgun',
+    category: 'primary',
+    warbond: 'redacted',
+    typeRu: 'Дробовик',
+    typeEn: 'Shotgun'
+  },
+  {
+    id: 'breaker',
+    nameRu: 'SG-225 «Разрушитель»',
+    nameEn: 'SG-225 Breaker',
+    category: 'primary',
+    warbond: 'default',
+    typeRu: 'Автоматический дробовик',
+    typeEn: 'Automatic Shotgun'
+  },
+  {
+    id: 'breaker-spray-pray',
+    nameRu: 'SG-225SP «Разрушитель-чистильщик»',
+    nameEn: 'SG-225SP Breaker Spray & Pray',
+    category: 'primary',
+    warbond: 'default',
+    typeRu: 'Автоматический дробовик',
+    typeEn: 'Automatic Shotgun'
+  },
+  {
+    id: 'breaker-incendiary',
+    nameRu: 'SG-225IE «Разрушитель-зажигательный»',
+    nameEn: 'SG-225IE Breaker Incendiary',
+    category: 'primary',
+    warbond: 'steeled',
+    typeRu: 'Автоматический дробовик',
+    typeEn: 'Automatic Shotgun'
+  },
+  {
+    id: 'sg-97-sweeper',
+    nameRu: 'SG-97 «Дворник»',
+    nameEn: 'SG-97 Sweeper',
+    category: 'primary',
+    warbond: 'redacted',
+    typeRu: 'Дробовик',
+    typeEn: 'Shotgun'
+  },
+
+  // Explosive
+  {
+    id: 'exploding-crossbow',
+    nameRu: 'CB-9 «Разрывной арбалет»',
+    nameEn: 'CB-9 Exploding Crossbow',
+    category: 'primary',
+    warbond: 'democratic',
+    typeRu: 'Арбалет',
+    typeEn: 'Explosive Crossbow'
+  },
+  {
+    id: 'eruptor',
+    nameRu: 'R-36 «Взрыватель»',
+    nameEn: 'R-36 Eruptor',
+    category: 'primary',
+    warbond: 'democratic',
+    typeRu: 'Болтовая винтовка',
+    typeEn: 'Bolt-Action Rifle'
+  },
+
+  // Energy-Based
+  {
     id: 'punisher-plasma',
     nameRu: 'SG-8P «Плазменный каратель»',
     nameEn: 'SG-8P Punisher Plasma',
@@ -158,49 +403,22 @@ export const ITEMS: LoadoutItem[] = [
     typeEn: 'Plasma Shotgun'
   },
   {
-    id: 'breaker',
-    nameRu: 'SG-225 «Крушитель»',
-    nameEn: 'SG-225 Breaker',
+    id: 'plas-39-accelerator',
+    nameRu: 'PLAS-39 «Ускоритель»',
+    nameEn: 'PLAS-39 Accelerator Rifle',
     category: 'primary',
-    warbond: 'default',
-    typeRu: 'Автоматический дробовик',
-    typeEn: 'Automatic Shotgun'
+    warbond: 'redacted',
+    typeRu: 'Энергетическая винтовка',
+    typeEn: 'Energy Rifle'
   },
   {
-    id: 'breaker-spray-pray',
-    nameRu: 'SG-225SP «Крушитель-пылитель»',
-    nameEn: 'SG-225SP Breaker Spray&Pray',
+    id: 'blitzer',
+    nameRu: 'ARC-12 «Блицер»',
+    nameEn: 'ARC-12 Blitzer',
     category: 'primary',
-    warbond: 'default',
-    typeRu: 'Автоматический дробовик',
-    typeEn: 'Automatic Shotgun'
-  },
-  {
-    id: 'breaker-incendiary',
-    nameRu: 'SG-225IE «Зажигательный крушитель»',
-    nameEn: 'SG-225IE Breaker Incendiary',
-    category: 'primary',
-    warbond: 'steeled',
-    typeRu: 'Автоматический дробовик',
-    typeEn: 'Automatic Shotgun'
-  },
-  {
-    id: 'cookout',
-    nameRu: 'SG-451 «Жаркое»',
-    nameEn: 'SG-451 Cookout',
-    category: 'primary',
-    warbond: 'flame',
-    typeRu: 'Помповый дробовик',
-    typeEn: 'Pump-Action Shotgun'
-  },
-  {
-    id: 'halt-shotgun',
-    nameRu: 'SG-20 «Преграда»',
-    nameEn: 'SG-20 Halt',
-    category: 'primary',
-    warbond: 'truth',
-    typeRu: 'Помповый дробовик',
-    typeEn: 'Pump-Action Shotgun'
+    warbond: 'cutting',
+    typeRu: 'Дуговое оружие',
+    typeEn: 'Arc Weapon'
   },
   {
     id: 'scythe',
@@ -208,8 +426,8 @@ export const ITEMS: LoadoutItem[] = [
     nameEn: 'LAS-5 Scythe',
     category: 'primary',
     warbond: 'default',
-    typeRu: 'Энергетическое оружие',
-    typeEn: 'Energy Weapon'
+    typeRu: 'Лазерное оружие',
+    typeEn: 'Laser Weapon'
   },
   {
     id: 'sickle',
@@ -217,8 +435,17 @@ export const ITEMS: LoadoutItem[] = [
     nameEn: 'LAS-16 Sickle',
     category: 'primary',
     warbond: 'cutting',
-    typeRu: 'Энергетическое оружие',
-    typeEn: 'Energy Weapon'
+    typeRu: 'Лазерное оружие',
+    typeEn: 'Laser Weapon'
+  },
+  {
+    id: 'las-17-double-edge',
+    nameRu: 'LAS-17 «Обоюдоострый серп»',
+    nameEn: 'LAS-17 Double-Edge Sickle',
+    category: 'primary',
+    warbond: 'redacted',
+    typeRu: 'Лазерное оружие',
+    typeEn: 'Laser Weapon'
   },
   {
     id: 'scorcher',
@@ -239,39 +466,32 @@ export const ITEMS: LoadoutItem[] = [
     typeEn: 'Plasma Weapon'
   },
   {
-    id: 'blitzer',
-    nameRu: 'ARC-12 «Грозовик»',
-    nameEn: 'ARC-12 Blitzer',
+    id: 'las-13-trident',
+    nameRu: 'LAS-13 «Трезубец»',
+    nameEn: 'LAS-13 Trident',
     category: 'primary',
-    warbond: 'cutting',
-    typeRu: 'Дуговое оружие',
-    typeEn: 'Arc Weapon'
+    warbond: 'redacted',
+    typeRu: 'Лазерный дробовик',
+    typeEn: 'Laser Shotgun'
   },
+
+  // Special
   {
-    id: 'eruptor',
-    nameRu: 'R-36 «Взрывотехник»',
-    nameEn: 'R-36 Eruptor',
+    id: 'vg-70-variable',
+    nameRu: 'VG-70 «Вариабельный»',
+    nameEn: 'VG-70 Variable',
     category: 'primary',
-    warbond: 'democratic',
-    typeRu: 'Болтовая винтовка',
-    typeEn: 'Bolt-Action Rifle'
-  },
-  {
-    id: 'crossbow',
-    nameRu: 'CB-9 «Взрывной арбалет»',
-    nameEn: 'CB-9 Exploding Crossbow',
-    category: 'primary',
-    warbond: 'democratic',
-    typeRu: 'Взрывной арбалет',
-    typeEn: 'Explosive Crossbow'
+    warbond: 'redacted',
+    typeRu: 'Специальное оружие',
+    typeEn: 'Special Weapon'
   },
   {
     id: 'torcher',
-    nameRu: 'FLAM-66 «Поджигатель»',
+    nameRu: 'FLAM-66 «Испепелитель»',
     nameEn: 'FLAM-66 Torcher',
     category: 'primary',
     warbond: 'flame',
-    typeRu: 'Огнеметное оружие',
+    typeRu: 'Персональный огнемет',
     typeEn: 'Flamethrower'
   },
   {
@@ -285,50 +505,33 @@ export const ITEMS: LoadoutItem[] = [
   },
 
   // --- SECONDARY WEAPONS ---
+  // Pistols
+  {
+    id: 'p-92-warrant',
+    nameRu: 'P-92 «Ордер»',
+    nameEn: 'P-92 Warrant',
+    category: 'secondary',
+    warbond: 'redacted',
+    typeRu: 'Пистолет',
+    typeEn: 'Pistol'
+  },
   {
     id: 'peacemaker',
     nameRu: 'P-2 «Миротворец»',
     nameEn: 'P-2 Peacemaker',
     category: 'secondary',
     warbond: 'default',
-    typeRu: 'Пистолет',
+    typeRu: 'Полуавтоматический пистолет',
     typeEn: 'Pistol'
   },
   {
     id: 'redeemer',
-    nameRu: 'P-19 «Спаситель»',
+    nameRu: 'P-19 «Избавитель»',
     nameEn: 'P-19 Redeemer',
     category: 'secondary',
     warbond: 'default',
     typeRu: 'Автоматический пистолет',
     typeEn: 'Automatic Pistol'
-  },
-  {
-    id: 'senator',
-    nameRu: 'P-4 «Сенатор»',
-    nameEn: 'P-4 Senator',
-    category: 'secondary',
-    warbond: 'steeled',
-    typeRu: 'Револьвер',
-    typeEn: 'Revolver'
-  },
-  {
-    id: 'dagger',
-    nameRu: 'LAS-7 «Кинжал»',
-    nameEn: 'LAS-7 Dagger',
-    category: 'secondary',
-    warbond: 'cutting',
-    typeRu: 'Лазерный пистолет',
-    typeEn: 'Laser Pistol'
-  },
-  {
-    id: 'grenade-pistol',
-    nameRu: 'GP-31 «Гранатометный пистолет»',
-    nameEn: 'GP-31 Grenade Pistol',
-    category: 'secondary',
-    warbond: 'democratic',
-    typeRu: 'Гранатометный пистолет',
-    typeEn: 'Grenade Pistol'
   },
   {
     id: 'verdict',
@@ -340,6 +543,118 @@ export const ITEMS: LoadoutItem[] = [
     typeEn: 'Pistol'
   },
   {
+    id: 'm6c-socom',
+    nameRu: 'M6C/SOCOM Пистолет',
+    nameEn: 'M6C/SOCOM Pistol',
+    category: 'secondary',
+    warbond: 'redacted',
+    typeRu: 'Пистолет',
+    typeEn: 'Pistol'
+  },
+  {
+    id: 'senator',
+    nameRu: 'P-4 «Сенатор»',
+    nameEn: 'P-4 Senator',
+    category: 'secondary',
+    warbond: 'steeled',
+    typeRu: 'Револьвер',
+    typeEn: 'Revolver'
+  },
+  {
+    id: 'p-69-veto',
+    nameRu: 'P-69 «Вето»',
+    nameEn: 'P-69 Veto',
+    category: 'secondary',
+    warbond: 'redacted',
+    typeRu: 'Пистолет',
+    typeEn: 'Pistol'
+  },
+
+  // Melee
+  {
+    id: 'cqc-19-stun-lance',
+    nameRu: 'CQC-19 «Шоковое копье»',
+    nameEn: 'CQC-19 Stun Lance',
+    category: 'secondary',
+    warbond: 'redacted',
+    typeRu: 'Холодное оружие ближнего боя',
+    typeEn: 'Melee Weapon'
+  },
+  {
+    id: 'melee-saber',
+    nameRu: 'CQC-2 «Сабля»',
+    nameEn: 'CQC-2 Saber',
+    category: 'secondary',
+    warbond: 'default',
+    typeRu: 'Холодное оружие ближнего боя',
+    typeEn: 'Melee Weapon'
+  },
+  {
+    id: 'cqc-30-stun-baton',
+    nameRu: 'CQC-30 «Шоковая дубинка»',
+    nameEn: 'CQC-30 Stun Baton',
+    category: 'secondary',
+    warbond: 'redacted',
+    typeRu: 'Холодное оружие ближнего боя',
+    typeEn: 'Melee Weapon'
+  },
+  {
+    id: 'cqc-5-hatchet',
+    nameRu: 'CQC-5 «Боевой топорик»',
+    nameEn: 'CQC-5 Combat Hatchet',
+    category: 'secondary',
+    warbond: 'redacted',
+    typeRu: 'Холодное оружие ближнего боя',
+    typeEn: 'Melee Weapon'
+  },
+  {
+    id: 'cqc-73-entrenchment',
+    nameRu: 'CQC-73 «Саперная лопатка»',
+    nameEn: 'CQC-73 Entrenchment Tool',
+    category: 'secondary',
+    warbond: 'redacted',
+    typeRu: 'Холодное оружие ближнего боя',
+    typeEn: 'Melee Weapon'
+  },
+  {
+    id: 'cqc-42-machete',
+    nameRu: 'CQC-42 «Мачете»',
+    nameEn: 'CQC-42 Machete',
+    category: 'secondary',
+    warbond: 'redacted',
+    typeRu: 'Холодное оружие ближнего боя',
+    typeEn: 'Melee Weapon'
+  },
+
+  // Special Secondaries
+  {
+    id: 'stim-pistol',
+    nameRu: 'P-11 «Пистолет-стимулятор»',
+    nameEn: 'P-11 Stim Pistol',
+    category: 'secondary',
+    warbond: 'chemical',
+    typeRu: 'Вспомогательный пистолет',
+    typeEn: 'Support Pistol'
+  },
+  {
+    id: 'bushwhacker',
+    nameRu: 'SG-22 «Бушвокер»',
+    nameEn: 'SG-22 Bushwhacker',
+    category: 'secondary',
+    warbond: 'viper',
+    typeRu: 'Обрез дробовика',
+    typeEn: 'Shotgun Pistol'
+  },
+  {
+    id: 'las-58-talon',
+    nameRu: 'LAS-58 «Коготь»',
+    nameEn: 'LAS-58 Talon',
+    category: 'secondary',
+    warbond: 'redacted',
+    typeRu: 'Энергетический пистолет',
+    typeEn: 'Laser Pistol'
+  },
+  {
     id: 'crisper',
     nameRu: 'P-72 «Жаришка»',
     nameEn: 'P-72 Crisper',
@@ -349,13 +664,31 @@ export const ITEMS: LoadoutItem[] = [
     typeEn: 'Pocket Flamethrower'
   },
   {
-    id: 'stim-pistol',
-    nameRu: 'С-10 «Пистолет-стимулятор»',
-    nameEn: 'C-10 Stim Pistol',
+    id: 'grenade-pistol',
+    nameRu: 'GP-31 «Гранатометный пистолет»',
+    nameEn: 'GP-31 Grenade Pistol',
     category: 'secondary',
-    warbond: 'chemical',
-    typeRu: 'Вспомогательный пистолет',
-    typeEn: 'Support Pistol'
+    warbond: 'democratic',
+    typeRu: 'Гранатометный пистолет',
+    typeEn: 'Grenade Pistol'
+  },
+  {
+    id: 'dagger',
+    nameRu: 'LAS-7 «Кинжал»',
+    nameEn: 'LAS-7 Dagger',
+    category: 'secondary',
+    warbond: 'cutting',
+    typeRu: 'Лазерный пистолет',
+    typeEn: 'Laser Pistol'
+  },
+  {
+    id: 'gp-20-ultimatum',
+    nameRu: 'GP-20 «Ультиматум»',
+    nameEn: 'GP-20 Ultimatum',
+    category: 'secondary',
+    warbond: 'redacted',
+    typeRu: 'Гранатометный пистолет',
+    typeEn: 'Grenade Pistol'
   },
   {
     id: 'loyalist',
@@ -366,20 +699,39 @@ export const ITEMS: LoadoutItem[] = [
     typeRu: 'Плазменный пистолет',
     typeEn: 'Plasma Pistol'
   },
+  {
+    id: 'p-35-reeducator',
+    nameRu: 'P-35 «Перевоспитатель»',
+    nameEn: 'P-35 Re-Educator',
+    category: 'secondary',
+    warbond: 'redacted',
+    typeRu: 'Пистолет',
+    typeEn: 'Pistol'
+  },
+  {
+    id: 'p-33-missile-pistol',
+    nameRu: 'P-33 «Ракетный пистолет»',
+    nameEn: 'P-33 Missile Pistol',
+    category: 'secondary',
+    warbond: 'redacted',
+    typeRu: 'Ракетный пистолет',
+    typeEn: 'Missile Pistol'
+  },
 
   // --- THROWABLES ---
+  // Standard
   {
-    id: 'high-explosive',
-    nameRu: 'G-12 Фугасная',
-    nameEn: 'G-12 High Explosive',
+    id: 'ted-63-dynamite',
+    nameRu: 'TED-63 «Динамит»',
+    nameEn: 'TED-63 Dynamite',
     category: 'throwable',
-    warbond: 'default',
-    typeRu: 'Фугасная граната',
-    typeEn: 'High Explosive Grenade'
+    warbond: 'redacted',
+    typeRu: 'Взрывчатка',
+    typeEn: 'Dynamite'
   },
   {
     id: 'frag-grenade',
-    nameRu: 'G-6 Осколочная',
+    nameRu: 'G-6 «Осколочная»',
     nameEn: 'G-6 Frag',
     category: 'throwable',
     warbond: 'default',
@@ -387,17 +739,17 @@ export const ITEMS: LoadoutItem[] = [
     typeEn: 'Frag Grenade'
   },
   {
-    id: 'impact-grenade',
-    nameRu: 'G-16 Контактная',
-    nameEn: 'G-16 Impact',
+    id: 'high-explosive',
+    nameRu: 'G-12 «Фугасная»',
+    nameEn: 'G-12 High Explosive',
     category: 'throwable',
     warbond: 'default',
-    typeRu: 'Контактная граната',
-    typeEn: 'Impact Grenade'
+    typeRu: 'Фугасная граната',
+    typeEn: 'High Explosive Grenade'
   },
   {
     id: 'incendiary-grenade',
-    nameRu: 'G-10 Зажигательная',
+    nameRu: 'G-10 «Зажигательная»',
     nameEn: 'G-10 Incendiary',
     category: 'throwable',
     warbond: 'default',
@@ -405,8 +757,36 @@ export const ITEMS: LoadoutItem[] = [
     typeEn: 'Incendiary Grenade'
   },
   {
+    id: 'g-7-pineapple',
+    nameRu: 'G-7 «Ананас»',
+    nameEn: 'G-7 Pineapple',
+    category: 'throwable',
+    warbond: 'redacted',
+    typeRu: 'Осколочная граната',
+    typeEn: 'Frag Grenade'
+  },
+  // Special
+  {
+    id: 'impact-grenade',
+    nameRu: 'G-16 «Контактная»',
+    nameEn: 'G-16 Impact',
+    category: 'throwable',
+    warbond: 'default',
+    typeRu: 'Контактная граната',
+    typeEn: 'Impact Grenade'
+  },
+  {
+    id: 'g-13-incendiary-impact',
+    nameRu: 'G-13 «Контактная зажигательная»',
+    nameEn: 'G-13 Incendiary Impact',
+    category: 'throwable',
+    warbond: 'flame',
+    typeRu: 'Зажигательная граната',
+    typeEn: 'Incendiary Impact Grenade'
+  },
+  {
     id: 'stun-grenade',
-    nameRu: 'G-23 Светошумовая',
+    nameRu: 'G-23 «Светошумовая»',
     nameEn: 'G-23 Stun',
     category: 'throwable',
     warbond: 'cutting',
@@ -414,8 +794,35 @@ export const ITEMS: LoadoutItem[] = [
     typeEn: 'Stun Grenade'
   },
   {
+    id: 'g-4-gas',
+    nameRu: 'G-4 «Газовая»',
+    nameEn: 'G-4 Gas',
+    category: 'throwable',
+    warbond: 'chemical',
+    typeRu: 'Газовая граната',
+    typeEn: 'Gas Grenade'
+  },
+  {
+    id: 'g-50-seeker',
+    nameRu: 'G-50 «Искатель»',
+    nameEn: 'G-50 Seeker',
+    category: 'throwable',
+    warbond: 'redacted',
+    typeRu: 'Умная граната',
+    typeEn: 'Seeker Grenade'
+  },
+  {
+    id: 'smoke-grenade',
+    nameRu: 'G-3 «Дымовая»',
+    nameEn: 'G-3 Smoke',
+    category: 'throwable',
+    warbond: 'default',
+    typeRu: 'Дымовая граната',
+    typeEn: 'Smoke Grenade'
+  },
+  {
     id: 'thermite-grenade',
-    nameRu: 'G-123 Термитная',
+    nameRu: 'G-123 «Термитная»',
     nameEn: 'G-123 Thermite',
     category: 'throwable',
     warbond: 'democratic',
@@ -423,150 +830,379 @@ export const ITEMS: LoadoutItem[] = [
     typeEn: 'Thermite Grenade'
   },
   {
-    id: 'gas-grenade',
-    nameRu: 'G-4 Химическая',
-    nameEn: 'G-4 Gas',
-    category: 'throwable',
-    warbond: 'chemical',
-    typeRu: 'Химическая граната',
-    typeEn: 'Gas Grenade'
-  },
-  {
     id: 'throwing-knife',
-    nameRu: 'K-2 Метательный нож',
+    nameRu: 'K-2 «Метательный нож»',
     nameEn: 'K-2 Throwing Knife',
     category: 'throwable',
     warbond: 'viper',
-    typeRu: 'Холодное оружие',
+    typeRu: 'Метательный нож',
     typeEn: 'Throwing Knife'
   },
   {
-    id: 'incendiary-impact',
-    nameRu: 'G-13 Контактная зажигательная',
-    nameEn: 'G-13 Incendiary Impact',
+    id: 'g-142-pyrotech',
+    nameRu: 'G-142 «Пиротех»',
+    nameEn: 'G-142 Pyrotech',
     category: 'throwable',
-    warbond: 'flame',
-    typeRu: 'Контактная зажигательная граната',
-    typeEn: 'Incendiary Impact Grenade'
+    warbond: 'redacted',
+    typeRu: 'Сигнальная граната',
+    typeEn: 'Pyrotech Grenade'
   },
   {
-    id: 'smoke-grenade',
-    nameRu: 'G-3 Дымовая',
-    nameEn: 'G-3 Smoke',
+    id: 'g-109-urchin',
+    nameRu: 'G-109 «Морской еж»',
+    nameEn: 'G-109 Urchin',
     category: 'throwable',
-    warbond: 'default',
-    typeRu: 'Дымовая граната',
-    typeEn: 'Smoke Grenade'
+    warbond: 'redacted',
+    typeRu: 'Игольчатая граната',
+    typeEn: 'Urchin Grenade'
+  },
+  {
+    id: 'g-31-arc',
+    nameRu: 'G-31 «Дуговая»',
+    nameEn: 'G-31 Arc',
+    category: 'throwable',
+    warbond: 'redacted',
+    typeRu: 'Дуговая граната',
+    typeEn: 'Arc Grenade'
+  },
+  {
+    id: 'tm-1-lure',
+    nameRu: 'TM-1 «Приманка-мина»',
+    nameEn: 'TM-1 Lure Mine',
+    category: 'throwable',
+    warbond: 'redacted',
+    typeRu: 'Мина-приманка',
+    typeEn: 'Lure Mine'
+  },
+  {
+    id: 'g-89-smokescreen',
+    nameRu: 'G-89 «Дымовая завеса»',
+    nameEn: 'G-89 Smokescreen',
+    category: 'throwable',
+    warbond: 'redacted',
+    typeRu: 'Дымовая завеса',
+    typeEn: 'Smokescreen Grenade'
+  },
+  {
+    id: 'g-sh-39-shield',
+    nameRu: 'G/SH-39 «Щит»',
+    nameEn: 'G/SH-39 Shield',
+    category: 'throwable',
+    warbond: 'redacted',
+    typeRu: 'Генераторный щит',
+    typeEn: 'Shield Grenade'
+  },
+  {
+    id: 'g-48-giga',
+    nameRu: 'G-48 «Гига-граната»',
+    nameEn: 'G-48 Giga Grenade',
+    category: 'throwable',
+    warbond: 'redacted',
+    typeRu: 'Тяжелая граната',
+    typeEn: 'Heavy Grenade'
   },
 
   // --- BOOSTERS ---
   {
-    id: 'hellpod-optimization',
-    nameRu: 'Оптимизация пространства адской капсулы',
+    id: 'booster-space-optimization',
+    nameRu: 'Оптимизация пространства хэллоподов',
     nameEn: 'Hellpod Space Optimization',
     category: 'booster',
-    warbond: 'default',
-    typeRu: 'Усиление',
-    typeEn: 'Booster'
+    warbond: 'default'
   },
   {
-    id: 'vitality-enhancement',
+    id: 'booster-vitality-enhancement',
     nameRu: 'Повышение жизнеспособности',
     nameEn: 'Vitality Enhancement',
     category: 'booster',
-    warbond: 'default',
-    typeRu: 'Усиление',
-    typeEn: 'Booster'
+    warbond: 'default'
   },
   {
-    id: 'uav-recon',
-    nameRu: 'Бустер разведки БПЛА',
+    id: 'booster-uav-recon',
+    nameRu: 'Разведчик БПЛА',
     nameEn: 'UAV Recon Booster',
     category: 'booster',
-    warbond: 'default',
-    typeRu: 'Усиление',
-    typeEn: 'Booster'
+    warbond: 'default'
   },
   {
-    id: 'stamina-enhancement',
+    id: 'booster-stamina-enhancement',
     nameRu: 'Повышение выносливости',
     nameEn: 'Stamina Enhancement',
     category: 'booster',
-    warbond: 'default',
-    typeRu: 'Усиление',
-    typeEn: 'Booster'
+    warbond: 'default'
   },
   {
-    id: 'muscle-enhancement',
-    nameRu: 'Улучшение мускулатуры',
+    id: 'booster-muscle-enhancement',
+    nameRu: 'Повышение мускулатуры',
     nameEn: 'Muscle Enhancement',
     category: 'booster',
-    warbond: 'default',
-    typeRu: 'Усиление',
-    typeEn: 'Booster'
+    warbond: 'steeled'
   },
   {
-    id: 'increased-reinforcement',
+    id: 'booster-increased-reinforcement',
     nameRu: 'Увеличенный бюджет подкреплений',
     nameEn: 'Increased Reinforcement Budget',
     category: 'booster',
-    warbond: 'default',
-    typeRu: 'Усиление',
-    typeEn: 'Booster'
+    warbond: 'default'
   },
   {
-    id: 'flexible-reinforcement',
+    id: 'booster-flexible-reinforcement',
     nameRu: 'Гибкий бюджет подкреплений',
     nameEn: 'Flexible Reinforcement Budget',
     category: 'booster',
-    warbond: 'default',
-    typeRu: 'Усиление',
-    typeEn: 'Booster'
+    warbond: 'steeled'
   },
   {
-    id: 'expert-extraction',
-    nameRu: 'Опытный пилот эвакуационного корабля',
-    nameEn: 'Expert Extraction Pilot',
-    category: 'booster',
-    warbond: 'polar',
-    typeRu: 'Усиление',
-    typeEn: 'Booster'
-  },
-  {
-    id: 'localization-confusion',
-    nameRu: 'Локализационная путаница',
+    id: 'booster-localization-confusion',
+    nameRu: 'Сбой локализации',
     nameEn: 'Localization Confusion',
     category: 'booster',
-    warbond: 'cutting',
-    typeRu: 'Усиление',
-    typeEn: 'Booster'
+    warbond: 'democratic'
   },
   {
-    id: 'motivational-shocks',
+    id: 'booster-expert-pilot',
+    nameRu: 'Экстракция с экспертом-пилотом',
+    nameEn: 'Expert Extraction Pilot',
+    category: 'booster',
+    warbond: 'polar'
+  },
+  {
+    id: 'booster-motivational-shocks',
     nameRu: 'Мотивационные удары',
     nameEn: 'Motivational Shocks',
     category: 'booster',
-    warbond: 'polar',
-    typeRu: 'Усиление',
-    typeEn: 'Booster'
+    warbond: 'polar'
   },
   {
-    id: 'experimental-infusion',
-    nameRu: 'Экспериментальная инфузия',
+    id: 'booster-experimental-infusion',
+    nameRu: 'Экспериментальная инъекция',
     nameEn: 'Experimental Infusion',
     category: 'booster',
-    warbond: 'viper',
-    typeRu: 'Усиление',
-    typeEn: 'Booster'
+    warbond: 'viper'
   },
   {
-    id: 'firebomb-hellpods',
-    nameRu: 'Адские капсулы с зажигательной бомбой',
+    id: 'booster-firebomb-hellpods',
+    nameRu: 'Огненные хэллоподы',
     nameEn: 'Firebomb Hellpods',
     category: 'booster',
+    warbond: 'flame'
+  },
+  {
+    id: 'booster-dead-sprint',
+    nameRu: 'Смертельный спринт',
+    nameEn: 'Dead Sprint',
+    category: 'booster',
+    warbond: 'chemical'
+  },
+  {
+    id: 'booster-armed-resupply',
+    nameRu: 'Вооруженные капсулы снабжения',
+    nameEn: 'Armed Resupply Pods',
+    category: 'booster',
+    warbond: 'truth'
+  },
+  {
+    id: 'booster-sample-extricator',
+    nameRu: 'Экстрактор образцов',
+    nameEn: 'Sample Extricator',
+    category: 'booster',
+    warbond: 'redacted'
+  },
+  {
+    id: 'booster-sample-scanner',
+    nameRu: 'Сканер образцов',
+    nameEn: 'Sample Scanner',
+    category: 'booster',
+    warbond: 'redacted'
+  },
+  {
+    id: 'booster-stun-pods',
+    nameRu: 'Оглушающие капсулы',
+    nameEn: 'Stun Pods',
+    category: 'booster',
+    warbond: 'redacted'
+  },
+  {
+    id: 'booster-concealed-insertion',
+    nameRu: 'Скрытное проникновение',
+    nameEn: 'Concealed Insertion',
+    category: 'booster',
+    warbond: 'redacted'
+  },
+
+  // --- ORBITAL STRIKES ---
+  {
+    id: 'orbital-precision',
+    nameRu: 'Орбитальный точечный удар',
+    nameEn: 'Orbital Precision Strike',
+    category: 'offensive',
+    warbond: 'default',
+    typeRu: 'Орбитальный удар',
+    typeEn: 'Orbital Cannon Stratagem'
+  },
+  {
+    id: 'orbital-gatling',
+    nameRu: 'Орбитальный обстрел из Гатлинга',
+    nameEn: 'Orbital Gatling Barrage',
+    category: 'offensive',
+    warbond: 'default',
+    typeRu: 'Орбитальный удар',
+    typeEn: 'Orbital Cannon Stratagem'
+  },
+  {
+    id: 'orbital-gas',
+    nameRu: 'Орбитальный газовый удар',
+    nameEn: 'Orbital Gas Strike',
+    category: 'offensive',
+    warbond: 'default',
+    typeRu: 'Орбитальный удар',
+    typeEn: 'Orbital Cannon Stratagem'
+  },
+  {
+    id: 'orbital-120-he',
+    nameRu: 'Орбитальный 120-мм фугасный обстрел',
+    nameEn: 'Orbital 120mm HE Barrage',
+    category: 'offensive',
+    warbond: 'default',
+    typeRu: 'Орбитальный удар',
+    typeEn: 'Orbital Cannon Stratagem'
+  },
+  {
+    id: 'orbital-airburst',
+    nameRu: 'Орбитальный кассетный удар',
+    nameEn: 'Orbital Airburst Strike',
+    category: 'offensive',
+    warbond: 'default',
+    typeRu: 'Орбитальный удар',
+    typeEn: 'Orbital Cannon Stratagem'
+  },
+  {
+    id: 'orbital-smoke',
+    nameRu: 'Орбитальный дымовой удар',
+    nameEn: 'Orbital Smoke Strike',
+    category: 'offensive',
+    warbond: 'default',
+    typeRu: 'Орбитальный удар',
+    typeEn: 'Orbital Cannon Stratagem'
+  },
+  {
+    id: 'orbital-ems',
+    nameRu: 'Орбитальный ЭМ-удар',
+    nameEn: 'Orbital EMS Strike',
+    category: 'offensive',
+    warbond: 'default',
+    typeRu: 'Орбитальный удар',
+    typeEn: 'Orbital Cannon Stratagem'
+  },
+  {
+    id: 'orbital-380-he',
+    nameRu: 'Орбитальный 380-мм фугасный обстрел',
+    nameEn: 'Orbital 380mm HE Barrage',
+    category: 'offensive',
+    warbond: 'default',
+    typeRu: 'Орбитальный удар',
+    typeEn: 'Orbital Cannon Stratagem'
+  },
+  {
+    id: 'orbital-walking',
+    nameRu: 'Орбитальный заградительный обстрел',
+    nameEn: 'Orbital Walking Barrage',
+    category: 'offensive',
+    warbond: 'default',
+    typeRu: 'Орбитальный удар',
+    typeEn: 'Orbital Cannon Stratagem'
+  },
+  {
+    id: 'orbital-laser',
+    nameRu: 'Орбитальный лазер',
+    nameEn: 'Orbital Laser',
+    category: 'offensive',
+    warbond: 'default',
+    typeRu: 'Орбитальный удар',
+    typeEn: 'Orbital Cannon Stratagem'
+  },
+  {
+    id: 'orbital-napalm',
+    nameRu: 'Орбитальный обстрел напалмом',
+    nameEn: 'Orbital Napalm Barrage',
+    category: 'offensive',
     warbond: 'flame',
-    typeRu: 'Усиление',
-    typeEn: 'Booster'
+    typeRu: 'Орбитальный удар',
+    typeEn: 'Orbital Cannon Stratagem'
+  },
+  {
+    id: 'orbital-railcannon',
+    nameRu: 'Орбитальный удар рельсотроном',
+    nameEn: 'Orbital Railcannon Strike',
+    category: 'offensive',
+    warbond: 'default',
+    typeRu: 'Орбитальный удар',
+    typeEn: 'Orbital Cannon Stratagem'
+  },
+
+  // --- EAGLE STRIKES ---
+  {
+    id: 'eagle-strafing',
+    nameRu: 'Орёл: Бреющий полет',
+    nameEn: 'Eagle Strafing Run',
+    category: 'offensive',
+    warbond: 'default',
+    typeRu: 'Авиаудар «Орла»',
+    typeEn: 'Hangar Stratagem'
+  },
+  {
+    id: 'eagle-airstrike',
+    nameRu: 'Орёл: Авиаудар',
+    nameEn: 'Eagle Airstrike',
+    category: 'offensive',
+    warbond: 'default',
+    typeRu: 'Авиаудар «Орла»',
+    typeEn: 'Hangar Stratagem'
+  },
+  {
+    id: 'eagle-cluster',
+    nameRu: 'Орёл: Кассетная бомба',
+    nameEn: 'Eagle Cluster Bomb',
+    category: 'offensive',
+    warbond: 'default',
+    typeRu: 'Авиаудар «Орла»',
+    typeEn: 'Hangar Stratagem'
+  },
+  {
+    id: 'eagle-smoke',
+    nameRu: 'Орёл: Дымовой удар',
+    nameEn: 'Eagle Smoke Strike',
+    category: 'offensive',
+    warbond: 'default',
+    typeRu: 'Авиаудар «Орла»',
+    typeEn: 'Hangar Stratagem'
+  },
+  {
+    id: 'eagle-napalm',
+    nameRu: 'Орёл: Напалмовый авиаудар',
+    nameEn: 'Eagle Napalm Airstrike',
+    category: 'offensive',
+    warbond: 'default',
+    typeRu: 'Авиаудар «Орла»',
+    typeEn: 'Hangar Stratagem'
+  },
+  {
+    id: 'eagle-110mm',
+    nameRu: 'Орёл: 110-мм ракетные кассеты',
+    nameEn: 'Eagle 110mm Rocket Pods',
+    category: 'offensive',
+    warbond: 'default',
+    typeRu: 'Авиаудар «Орла»',
+    typeEn: 'Hangar Stratagem'
+  },
+  {
+    id: 'eagle-500kg',
+    nameRu: 'Орёл: 500-кг бомба',
+    nameEn: 'Eagle 500kg Bomb',
+    category: 'offensive',
+    warbond: 'default',
+    typeRu: 'Авиаудар «Орла»',
+    typeEn: 'Hangar Stratagem'
   },
 
   // --- SUPPORT WEAPONS ---
@@ -574,6 +1210,33 @@ export const ITEMS: LoadoutItem[] = [
     id: 'machine-gun',
     nameRu: 'MG-43 «Пулемет»',
     nameEn: 'MG-43 Machine Gun',
+    category: 'support',
+    warbond: 'default',
+    typeRu: 'Вспомогательное оружие',
+    typeEn: 'Support Weapon Stratagem'
+  },
+  {
+    id: 'expendable-anti-tank',
+    nameRu: 'EAT-17 «Одноразовый бронебойщик»',
+    nameEn: 'EAT-17 Expendable Anti-Tank',
+    category: 'support',
+    warbond: 'default',
+    typeRu: 'Вспомогательное оружие',
+    typeEn: 'Support Weapon Stratagem'
+  },
+  {
+    id: 'stalwart',
+    nameRu: 'M-105 «Доблесть»',
+    nameEn: 'M-105 Stalwart',
+    category: 'support',
+    warbond: 'default',
+    typeRu: 'Вспомогательное оружие',
+    typeEn: 'Support Weapon Stratagem'
+  },
+  {
+    id: 'laser-cannon',
+    nameRu: 'LAS-98 «Лазерная пушка»',
+    nameEn: 'LAS-98 Laser Cannon',
     category: 'support',
     warbond: 'default',
     typeRu: 'Вспомогательное оружие',
@@ -589,26 +1252,8 @@ export const ITEMS: LoadoutItem[] = [
     typeEn: 'Support Weapon Stratagem'
   },
   {
-    id: 'stalwart',
-    nameRu: 'M-105 «Удалец»',
-    nameEn: 'M-105 Stalwart',
-    category: 'support',
-    warbond: 'default',
-    typeRu: 'Вспомогательное оружие',
-    typeEn: 'Support Weapon Stratagem'
-  },
-  {
-    id: 'expendable-anti-tank',
-    nameRu: 'EAT-17 «Одноразовый ПТ-гранатомет»',
-    nameEn: 'EAT-17 Expendable Anti-Tank',
-    category: 'support',
-    warbond: 'default',
-    typeRu: 'Вспомогательное оружие',
-    typeEn: 'Support Weapon Stratagem'
-  },
-  {
     id: 'grenade-launcher',
-    nameRu: 'Гранатомет GL-21',
+    nameRu: 'GL-21 «Гранатомет»',
     nameEn: 'GL-21 Grenade Launcher',
     category: 'support',
     warbond: 'default',
@@ -634,15 +1279,6 @@ export const ITEMS: LoadoutItem[] = [
     typeEn: 'Support Weapon Stratagem'
   },
   {
-    id: 'autocannon',
-    nameRu: 'AC-8 «Автопушка»',
-    nameEn: 'AC-8 Autocannon',
-    category: 'support',
-    warbond: 'default',
-    typeRu: 'Вспомогательное оружие',
-    typeEn: 'Support Weapon Stratagem'
-  },
-  {
     id: 'heavy-machine-gun',
     nameRu: 'MG-206 «Тяжелый пулемет»',
     nameEn: 'MG-206 Heavy Machine Gun',
@@ -652,36 +1288,9 @@ export const ITEMS: LoadoutItem[] = [
     typeEn: 'Support Weapon Stratagem'
   },
   {
-    id: 'airburst-rocket',
-    nameRu: 'RL-77 «Ракетная установка возд. подрыва»',
-    nameEn: 'RL-77 Airburst Rocket Launcher',
-    category: 'support',
-    warbond: 'default',
-    typeRu: 'Вспомогательное оружие',
-    typeEn: 'Support Weapon Stratagem'
-  },
-  {
-    id: 'railgun',
-    nameRu: 'RS-422 «Рельсотрон»',
-    nameEn: 'RS-422 Railgun',
-    category: 'support',
-    warbond: 'default',
-    typeRu: 'Вспомогательное оружие',
-    typeEn: 'Support Weapon Stratagem'
-  },
-  {
-    id: 'spear',
-    nameRu: 'FAF-14 «Копье»',
-    nameEn: 'FAF-14 Spear',
-    category: 'support',
-    warbond: 'default',
-    typeRu: 'Вспомогательное оружие',
-    typeEn: 'Support Weapon Stratagem'
-  },
-  {
-    id: 'laser-cannon',
-    nameRu: 'LAS-98 «Лазерная пушка»',
-    nameEn: 'LAS-98 Laser Cannon',
+    id: 'autocannon',
+    nameRu: 'AC-8 «Автопушка»',
+    nameEn: 'AC-8 Autocannon',
     category: 'support',
     warbond: 'default',
     typeRu: 'Вспомогательное оружие',
@@ -706,8 +1315,17 @@ export const ITEMS: LoadoutItem[] = [
     typeEn: 'Support Weapon Stratagem'
   },
   {
+    id: 'airburst-rocket',
+    nameRu: 'RL-77 «Ракетная установка кассетного взрыва»',
+    nameEn: 'RL-77 Airburst Rocket Launcher',
+    category: 'support',
+    warbond: 'default',
+    typeRu: 'Вспомогательное оружие',
+    typeEn: 'Support Weapon Stratagem'
+  },
+  {
     id: 'commando',
-    nameRu: 'MLS-4X «Коммандос»',
+    nameRu: 'MLS-4X «Коммандо»',
     nameEn: 'MLS-4X Commando',
     category: 'support',
     warbond: 'default',
@@ -715,293 +1333,365 @@ export const ITEMS: LoadoutItem[] = [
     typeEn: 'Support Weapon Stratagem'
   },
   {
+    id: 'spear',
+    nameRu: 'FAF-14 «Копье»',
+    nameEn: 'FAF-14 Spear',
+    category: 'support',
+    warbond: 'default',
+    typeRu: 'Вспомогательное оружие',
+    typeEn: 'Support Weapon Stratagem'
+  },
+  {
+    id: 'railgun',
+    nameRu: 'RS-422 «Рельсотрон»',
+    nameEn: 'RS-422 Railgun',
+    category: 'support',
+    warbond: 'default',
+    typeRu: 'Вспомогательное оружие',
+    typeEn: 'Support Weapon Stratagem'
+  },
+  {
+    id: 'wasp-launcher',
+    nameRu: 'StA-X3 «Пусковая установка ОСА»',
+    nameEn: 'StA-X3 W.A.S.P. Launcher',
+    category: 'support',
+    warbond: 'redacted',
+    typeRu: 'Вспомогательное оружие',
+    typeEn: 'Support Weapon Stratagem'
+  },
+  {
+    id: 'breaching-hammer',
+    nameRu: 'CQC-20 «Штурмовой молот»',
+    nameEn: 'CQC-20 Breaching Hammer',
+    category: 'support',
+    warbond: 'redacted',
+    typeRu: 'Вспомогательное оружие',
+    typeEn: 'Support Weapon Stratagem'
+  },
+  {
+    id: 'plas-45-epoch',
+    nameRu: 'PLAS-45 «Эпоха»',
+    nameEn: 'PLAS-45 Epoch',
+    category: 'support',
+    warbond: 'redacted',
+    typeRu: 'Вспомогательное оружие',
+    typeEn: 'Support Weapon Stratagem'
+  },
+  {
+    id: 'bullet-storm',
+    nameRu: 'MGX-42 «Ливень пуль»',
+    nameEn: 'MGX-42 Bullet Storm',
+    category: 'support',
+    warbond: 'redacted',
+    typeRu: 'Вспомогательное оружие',
+    typeEn: 'Support Weapon Stratagem'
+  },
+  {
+    id: 'speargun',
+    nameRu: 'S-11 «Гарпун»',
+    nameEn: 'S-11 Speargun',
+    category: 'support',
+    warbond: 'redacted',
+    typeRu: 'Вспомогательное оружие',
+    typeEn: 'Support Weapon Stratagem'
+  },
+  {
+    id: 'defoliation-tool',
+    nameRu: 'CQC-9 «Дефолиатор»',
+    nameEn: 'CQC-9 Defoliation Tool',
+    category: 'support',
+    warbond: 'redacted',
+    typeRu: 'Вспомогательное оружие',
+    typeEn: 'Support Weapon Stratagem'
+  },
+  {
     id: 'sterilizer',
-    nameRu: 'FLAM-88 «Стерилизатор»',
-    nameEn: 'FLAM-88 Sterilizer',
+    nameRu: 'TX-41 «Стерилизатор»',
+    nameEn: 'TX-41 Sterilizer',
     category: 'support',
     warbond: 'chemical',
+    typeRu: 'Вспомогательное оружие',
+    typeEn: 'Support Weapon Stratagem'
+  },
+  {
+    id: 'expendable-napalm',
+    nameRu: 'EAT-700 «Одноразовый напалм»',
+    nameEn: 'EAT-700 Expendable Napalm',
+    category: 'support',
+    warbond: 'flame',
+    typeRu: 'Вспомогательное оружие',
+    typeEn: 'Support Weapon Stratagem'
+  },
+  {
+    id: 'eat-411-leveller',
+    nameRu: 'EAT-411 «Уравнитель»',
+    nameEn: 'EAT-411 Leveller',
+    category: 'support',
+    warbond: 'redacted',
+    typeRu: 'Вспомогательное оружие',
+    typeEn: 'Support Weapon Stratagem'
+  },
+  {
+    id: 'gl-52-deescalator',
+    nameRu: 'GL-52 «Деэскалатор»',
+    nameEn: 'GL-52 De-Escalator',
+    category: 'support',
+    warbond: 'redacted',
+    typeRu: 'Вспомогательное оружие',
+    typeEn: 'Support Weapon Stratagem'
+  },
+  {
+    id: 'gl-28-belt-fed',
+    nameRu: 'GL-28 «Ленточный гранатомет»',
+    nameEn: 'GL-28 Belt-Fed Grenade Launcher',
+    category: 'support',
+    warbond: 'redacted',
+    typeRu: 'Вспомогательное оружие',
+    typeEn: 'Support Weapon Stratagem'
+  },
+  {
+    id: 'c4-pack',
+    nameRu: 'B/MD «Взрывчатка C4»',
+    nameEn: 'B/MD C4 Pack',
+    category: 'support',
+    warbond: 'redacted',
+    typeRu: 'Вспомогательное оружие',
+    typeEn: 'Support Weapon Stratagem'
+  },
+  {
+    id: 'solo-silo',
+    nameRu: 'MS-11 «Одиночная шахта»',
+    nameEn: 'MS-11 Solo Silo',
+    category: 'support',
+    warbond: 'redacted',
+    typeRu: 'Вспомогательное оружие',
+    typeEn: 'Support Weapon Stratagem'
+  },
+  {
+    id: 'cremator',
+    nameRu: 'B/FLAM-80 «Крематор»',
+    nameEn: 'B/FLAM-80 Cremator',
+    category: 'support',
+    warbond: 'flame',
+    typeRu: 'Вспомогательное оружие',
+    typeEn: 'Support Weapon Stratagem'
+  },
+  {
+    id: 'maxigun',
+    nameRu: 'M-1000 «Максиган»',
+    nameEn: 'M-1000 Maxigun',
+    category: 'support',
+    warbond: 'redacted',
+    typeRu: 'Вспомогательное оружие',
+    typeEn: 'Support Weapon Stratagem'
+  },
+  {
+    id: 'one-true-flag',
+    nameRu: 'CQC-1 «Единственный флаг»',
+    nameEn: 'CQC-1 One True Flag',
+    category: 'support',
+    warbond: 'redacted',
     typeRu: 'Вспомогательное оружие',
     typeEn: 'Support Weapon Stratagem'
   },
 
   // --- BACKPACKS ---
   {
-    id: 'jump-pack',
-    nameRu: 'Прыжковый ранец LIFT-850',
-    nameEn: 'LIFT-850 Jump Pack',
-    category: 'backpack',
-    warbond: 'default',
-    typeRu: 'Снаряжение',
-    typeEn: 'Backpack Stratagem'
-  },
-  {
     id: 'supply-pack',
-    nameRu: 'Ранец со снабжением B-1',
+    nameRu: 'B-1 «Рюкзак с припасами»',
     nameEn: 'B-1 Supply Pack',
     category: 'backpack',
     warbond: 'default',
-    typeRu: 'Снаряжение',
+    typeRu: 'Рюкзак',
     typeEn: 'Backpack Stratagem'
   },
   {
-    id: 'guard-dog-rover',
-    nameRu: 'Сторожевой пес AX/LAS-59 «Скиталец»',
-    nameEn: 'AX/LAS-59 "Guard Dog" Rover',
+    id: 'jump-pack',
+    nameRu: 'LIFT-850 «Прыжковый ранец»',
+    nameEn: 'LIFT-850 Jump Pack',
     category: 'backpack',
     warbond: 'default',
-    typeRu: 'Снаряжение',
-    typeEn: 'Backpack Stratagem'
-  },
-  {
-    id: 'guard-dog-bullet',
-    nameRu: 'Сторожевой пес AX/AR-23',
-    nameEn: 'AX/AR-23 "Guard Dog"',
-    category: 'backpack',
-    warbond: 'default',
-    typeRu: 'Снаряжение',
+    typeRu: 'Рюкзак',
     typeEn: 'Backpack Stratagem'
   },
   {
     id: 'ballistic-shield',
-    nameRu: 'Баллистический щит SH-20',
+    nameRu: 'SH-20 «Баллистический щит»',
     nameEn: 'SH-20 Ballistic Shield Backpack',
     category: 'backpack',
     warbond: 'default',
-    typeRu: 'Снаряжение',
+    typeRu: 'Рюкзак',
+    typeEn: 'Backpack Stratagem'
+  },
+  {
+    id: 'guard-dog-bullet',
+    nameRu: 'AX/AR-23 «Сторожевой пес»',
+    nameEn: 'AX/AR-23 Guard Dog',
+    category: 'backpack',
+    warbond: 'default',
+    typeRu: 'Рюкзак',
+    typeEn: 'Backpack Stratagem'
+  },
+  {
+    id: 'guard-dog-laser',
+    nameRu: 'AX/LAS-5 «Охранитель»',
+    nameEn: 'AX/LAS-5 Rover',
+    category: 'backpack',
+    warbond: 'default',
+    typeRu: 'Рюкзак',
     typeEn: 'Backpack Stratagem'
   },
   {
     id: 'shield-generator-pack',
-    nameRu: 'Генератор щита SH-32',
-    nameEn: 'SH-32 Shield Generator Backpack',
+    nameRu: 'SH-32 «Рюкзак-генератор щита»',
+    nameEn: 'SH-32 Shield Generator Pack',
     category: 'backpack',
     warbond: 'default',
-    typeRu: 'Снаряжение',
+    typeRu: 'Рюкзак',
     typeEn: 'Backpack Stratagem'
   },
   {
-    id: 'guard-dog-breath',
-    nameRu: 'Сторожевой пес AX/TX-40 «Дыхание пса»',
-    nameEn: 'AX/TX-40 "Guard Dog" Breath',
+    id: 'directional-shield',
+    nameRu: 'SH-51 «Направленный щит»',
+    nameEn: 'SH-51 Directional Shield',
+    category: 'backpack',
+    warbond: 'truth',
+    typeRu: 'Рюкзак',
+    typeEn: 'Backpack Stratagem'
+  },
+  {
+    id: 'hot-dog',
+    nameRu: 'AX/FLAM-75 «Хот-дог»',
+    nameEn: 'AX/FLAM-75 Hot Dog',
+    category: 'backpack',
+    warbond: 'flame',
+    typeRu: 'Рюкзак',
+    typeEn: 'Backpack Stratagem'
+  },
+  {
+    id: 'portable-hellbomb',
+    nameRu: 'B-100 «Портативная хэллбомба»',
+    nameEn: 'B-100 Portable Hellbomb',
+    category: 'backpack',
+    warbond: 'redacted',
+    typeRu: 'Рюкзак',
+    typeEn: 'Backpack Stratagem'
+  },
+  {
+    id: 'k-9-backpack',
+    nameRu: 'AX/ARC-3 «К-9»',
+    nameEn: 'AX/ARC-3 K-9',
+    category: 'backpack',
+    warbond: 'redacted',
+    typeRu: 'Рюкзак',
+    typeEn: 'Backpack Stratagem'
+  },
+  {
+    id: 'hover-pack',
+    nameRu: 'LIFT-860 «Летающий ранец»',
+    nameEn: 'LIFT-860 Hover Pack',
+    category: 'backpack',
+    warbond: 'redacted',
+    typeRu: 'Рюкзак',
+    typeEn: 'Backpack Stratagem'
+  },
+  {
+    id: 'dog-breath',
+    nameRu: 'AX/TX-13 «Дыхание пса»',
+    nameEn: 'AX/TX-13 Dog Breath',
     category: 'backpack',
     warbond: 'chemical',
-    typeRu: 'Снаряжение',
+    typeRu: 'Рюкзак',
+    typeEn: 'Backpack Stratagem'
+  },
+  {
+    id: 'warp-pack',
+    nameRu: 'LIFT-182 «Варп-ранец»',
+    nameEn: 'LIFT-182 Warp Pack',
+    category: 'backpack',
+    warbond: 'redacted',
+    typeRu: 'Рюкзак',
     typeEn: 'Backpack Stratagem'
   },
 
-  // --- OFFENSIVE STRATAGEMS ---
+  // --- VEHICLES ---
   {
-    id: 'orbital-precision',
-    nameRu: 'Точный орбитальный удар',
-    nameEn: 'Orbital Precision Strike',
-    category: 'offensive',
-    warbond: 'default',
-    typeRu: 'Орбитальная стратагема',
-    typeEn: 'Orbital Cannon Stratagem'
+    id: 'supply-frv',
+    nameRu: 'M-103 «Машина снабжения»',
+    nameEn: 'M-103 Supply FRV',
+    category: 'defensive',
+    warbond: 'exo',
+    typeRu: 'Транспорт',
+    typeEn: 'Vehicle Stratagem'
   },
   {
-    id: 'orbital-120',
-    nameRu: '120-мм орбитальный обстрел',
-    nameEn: 'Orbital 120mm HE Barrage',
-    category: 'offensive',
-    warbond: 'default',
-    typeRu: 'Орбитальная стратагема',
-    typeEn: 'Orbital Cannon Stratagem'
+    id: 'incinerator-frv',
+    nameRu: 'M-104 «Огнеметная машина»',
+    nameEn: 'M-104 Incinerator FRV',
+    category: 'defensive',
+    warbond: 'exo',
+    typeRu: 'Транспорт',
+    typeEn: 'Vehicle Stratagem'
   },
   {
-    id: 'orbital-380',
-    nameRu: '380-мм орбитальный обстрел',
-    nameEn: 'Orbital 380mm HE Barrage',
-    category: 'offensive',
-    warbond: 'default',
-    typeRu: 'Орбитальная стратагема',
-    typeEn: 'Orbital Cannon Stratagem'
+    id: 'emancipator-exosuit',
+    nameRu: 'EXO-49 Экзокостюм «Освободитель»',
+    nameEn: 'EXO-49 Emancipator Exosuit',
+    category: 'defensive',
+    warbond: 'exo',
+    typeRu: 'Экзокостюм',
+    typeEn: 'Exosuit Stratagem'
   },
   {
-    id: 'orbital-walking',
-    nameRu: 'Орбитальный обстрел со смещением',
-    nameEn: 'Orbital Walking Barrage',
-    category: 'offensive',
-    warbond: 'default',
-    typeRu: 'Орбитальная стратагема',
-    typeEn: 'Orbital Cannon Stratagem'
+    id: 'patriot-exosuit',
+    nameRu: 'EXO-45 Экзокостюм «Патриот»',
+    nameEn: 'EXO-45 Patriot Exosuit',
+    category: 'defensive',
+    warbond: 'exo',
+    typeRu: 'Экзокостюм',
+    typeEn: 'Exosuit Stratagem'
   },
   {
-    id: 'orbital-laser',
-    nameRu: 'Орбитальный лазер',
-    nameEn: 'Orbital Laser',
-    category: 'offensive',
-    warbond: 'default',
-    typeRu: 'Орбитальная стратагема',
-    typeEn: 'Orbital Cannon Stratagem'
+    id: 'recon-vehicle',
+    nameRu: 'M-102 «Легкая разведывательная машина»',
+    nameEn: 'M-102 Fast Recon Vehicle',
+    category: 'defensive',
+    warbond: 'exo',
+    typeRu: 'Транспорт',
+    typeEn: 'Vehicle Stratagem'
   },
   {
-    id: 'orbital-railcannon',
-    nameRu: 'Орбитальный удар рельсотроном',
-    nameEn: 'Orbital Railcannon Strike',
-    category: 'offensive',
-    warbond: 'default',
-    typeRu: 'Орбитальная стратагема',
-    typeEn: 'Orbital Cannon Stratagem'
+    id: 'bastion-tank',
+    nameRu: 'TD-220 «Бастион MK XVI»',
+    nameEn: 'TD-220 Bastion MK XVI',
+    category: 'defensive',
+    warbond: 'exo',
+    typeRu: 'Транспорт',
+    typeEn: 'Vehicle Stratagem'
   },
   {
-    id: 'orbital-airburst',
-    nameRu: 'Орбитальный осколочный удар',
-    nameEn: 'Orbital Airburst Strike',
-    category: 'offensive',
-    warbond: 'default',
-    typeRu: 'Орбитальная стратагема',
-    typeEn: 'Orbital Cannon Stratagem'
+    id: 'breakthrough-exosuit',
+    nameRu: 'EXO-55 Экзокостюм «Прорыв»',
+    nameEn: 'EXO-55 Breakthrough Exosuit',
+    category: 'defensive',
+    warbond: 'exo',
+    typeRu: 'Экзокостюм',
+    typeEn: 'Exosuit Stratagem'
   },
   {
-    id: 'orbital-gas',
-    nameRu: 'Орбитальный химический удар',
-    nameEn: 'Orbital Gas Strike',
-    category: 'offensive',
-    warbond: 'default',
-    typeRu: 'Орбитальная стратагема',
-    typeEn: 'Orbital Cannon Stratagem'
-  },
-  {
-    id: 'orbital-gatling',
-    nameRu: 'Орбитальный обстрел из пушки Гатлинга',
-    nameEn: 'Orbital Gatling Barrage',
-    category: 'offensive',
-    warbond: 'default',
-    typeRu: 'Орбитальная стратагема',
-    typeEn: 'Orbital Cannon Stratagem'
-  },
-  {
-    id: 'orbital-ems',
-    nameRu: 'Орбитальный ЭМИ-удар',
-    nameEn: 'Orbital EMS Strike',
-    category: 'offensive',
-    warbond: 'default',
-    typeRu: 'Орбитальная стратагема',
-    typeEn: 'Orbital Cannon Stratagem'
-  },
-  {
-    id: 'orbital-smoke',
-    nameRu: 'Орбитальный дымовой удар',
-    nameEn: 'Orbital Smoke Strike',
-    category: 'offensive',
-    warbond: 'default',
-    typeRu: 'Орбитальная стратагема',
-    typeEn: 'Orbital Cannon Stratagem'
-  },
-  {
-    id: 'eagle-strafing',
-    nameRu: 'Бреющий полет «Игла»',
-    nameEn: 'Eagle Strafing Run',
-    category: 'offensive',
-    warbond: 'default',
-    typeRu: 'Стратагема ангара',
-    typeEn: 'Hangar (Eagle) Stratagem'
-  },
-  {
-    id: 'eagle-airstrike',
-    nameRu: 'Авиаудар «Игла»',
-    nameEn: 'Eagle Airstrike',
-    category: 'offensive',
-    warbond: 'default',
-    typeRu: 'Стратагема ангара',
-    typeEn: 'Hangar (Eagle) Stratagem'
-  },
-  {
-    id: 'eagle-cluster',
-    nameRu: 'Кассетная бомба «Игла»',
-    nameEn: 'Eagle Cluster Bomb',
-    category: 'offensive',
-    warbond: 'default',
-    typeRu: 'Стратагема ангара',
-    typeEn: 'Hangar (Eagle) Stratagem'
-  },
-  {
-    id: 'eagle-napalm',
-    nameRu: 'Напалмовый авиаудар «Игла»',
-    nameEn: 'Eagle Napalm Airstrike',
-    category: 'offensive',
-    warbond: 'default',
-    typeRu: 'Стратагема ангара',
-    typeEn: 'Hangar (Eagle) Stratagem'
-  },
-  {
-    id: 'eagle-smoke',
-    nameRu: 'Дымовой удар «Игла»',
-    nameEn: 'Eagle Smoke Strike',
-    category: 'offensive',
-    warbond: 'default',
-    typeRu: 'Стратагема ангара',
-    typeEn: 'Hangar (Eagle) Stratagem'
-  },
-  {
-    id: 'eagle-rocket-pods',
-    nameRu: '110-мм ракетные кассеты «Игла»',
-    nameEn: 'Eagle 110mm Rocket Pods',
-    category: 'offensive',
-    warbond: 'default',
-    typeRu: 'Стратагема ангара',
-    typeEn: 'Hangar (Eagle) Stratagem'
-  },
-  {
-    id: 'eagle-500kg',
-    nameRu: '500-кг бомба «Игла»',
-    nameEn: 'Eagle 500kg Bomb',
-    category: 'offensive',
-    warbond: 'default',
-    typeRu: 'Стратагема ангара',
-    typeEn: 'Hangar (Eagle) Stratagem'
+    id: 'lumberer-exosuit',
+    nameRu: 'EXO-51 Экзокостюм «Лесоруб»',
+    nameEn: 'EXO-51 Lumberer Exosuit',
+    category: 'defensive',
+    warbond: 'exo',
+    typeRu: 'Экзокостюм',
+    typeEn: 'Exosuit Stratagem'
   },
 
-  // --- DEFENSIVE STRATAGEMS ---
-  {
-    id: 'hmg-emplacement',
-    nameRu: 'Турель с тяжелым пулеметом',
-    nameEn: 'HMG Emplacement',
-    category: 'defensive',
-    warbond: 'default',
-    typeRu: 'Оборонительная стратагема',
-    typeEn: 'Bridge / Defence Stratagem'
-  },
-  {
-    id: 'anti-personnel-mines',
-    nameRu: 'Противопехотное минное поле MD-6',
-    nameEn: 'MD-6 Anti-Personnel Minefield',
-    category: 'defensive',
-    warbond: 'default',
-    typeRu: 'Оборонительная стратагема',
-    typeEn: 'Engineering Bay Stratagem'
-  },
-  {
-    id: 'incendiary-mines',
-    nameRu: 'Зажигательные мины MD-I4',
-    nameEn: 'MD-I4 Incendiary Mines',
-    category: 'defensive',
-    warbond: 'default',
-    typeRu: 'Оборонительная стратагема',
-    typeEn: 'Engineering Bay Stratagem'
-  },
-  {
-    id: 'anti-tank-mines',
-    nameRu: 'Противотанковые мины MD-17',
-    nameEn: 'MD-17 Anti-Tank Mines',
-    category: 'defensive',
-    warbond: 'default',
-    typeRu: 'Оборонительная стратагема',
-    typeEn: 'Engineering Bay Stratagem'
-  },
-  {
-    id: 'gas-mines',
-    nameRu: 'Химические мины MD-8',
-    nameEn: 'MD-8 Gas Mines',
-    category: 'defensive',
-    warbond: 'chemical',
-    typeRu: 'Оборонительная стратагема',
-    typeEn: 'Engineering Bay Stratagem'
-  },
+  // --- SENTRIES ---
   {
     id: 'machine-gun-sentry',
-    nameRu: 'Турель с пулеметом A/MG-43',
+    nameRu: 'A/MG-43 «Турель-пулемет»',
     nameEn: 'A/MG-43 Machine Gun Sentry',
     category: 'defensive',
     warbond: 'default',
@@ -1010,7 +1700,7 @@ export const ITEMS: LoadoutItem[] = [
   },
   {
     id: 'gatling-sentry',
-    nameRu: 'Турель с пушкой Гатлинга A/G-16',
+    nameRu: 'A/G-16 «Турель Гатлинга»',
     nameEn: 'A/G-16 Gatling Sentry',
     category: 'defensive',
     warbond: 'default',
@@ -1018,17 +1708,8 @@ export const ITEMS: LoadoutItem[] = [
     typeEn: 'Robotics Workshop Stratagem'
   },
   {
-    id: 'mortar-sentry',
-    nameRu: 'Минометная турель A/M-12',
-    nameEn: 'A/M-12 Mortar Sentry',
-    category: 'defensive',
-    warbond: 'default',
-    typeRu: 'Оборонительная стратагема',
-    typeEn: 'Robotics Workshop Stratagem'
-  },
-  {
     id: 'autocannon-sentry',
-    nameRu: 'Турель с автопушкой A/AC-8',
+    nameRu: 'A/AC-8 «Турель-автопушка»',
     nameEn: 'A/AC-8 Autocannon Sentry',
     category: 'defensive',
     warbond: 'default',
@@ -1036,9 +1717,18 @@ export const ITEMS: LoadoutItem[] = [
     typeEn: 'Robotics Workshop Stratagem'
   },
   {
+    id: 'mortar-sentry',
+    nameRu: 'A/M-12 «Минометная турель»',
+    nameEn: 'A/M-12 Mortar Sentry',
+    category: 'defensive',
+    warbond: 'default',
+    typeRu: 'Оборонительная стратагема',
+    typeEn: 'Robotics Workshop Stratagem'
+  },
+  {
     id: 'rocket-sentry',
-    nameRu: 'Ракетная турель A/MLS-12',
-    nameEn: 'A/MLS-12 Rocket Sentry',
+    nameRu: 'A/MLS-4X «Ракетная турель»',
+    nameEn: 'A/MLS-4X Rocket Sentry',
     category: 'defensive',
     warbond: 'default',
     typeRu: 'Оборонительная стратагема',
@@ -1046,7 +1736,7 @@ export const ITEMS: LoadoutItem[] = [
   },
   {
     id: 'tesla-tower',
-    nameRu: 'Башня Тесла A/ARC-3',
+    nameRu: 'A/ARC-3 «Башня Тесла»',
     nameEn: 'A/ARC-3 Tesla Tower',
     category: 'defensive',
     warbond: 'default',
@@ -1055,7 +1745,7 @@ export const ITEMS: LoadoutItem[] = [
   },
   {
     id: 'ems-mortar-sentry',
-    nameRu: 'ЭМИ-минометная турель A/M-23',
+    nameRu: 'A/M-23 «ЭМ-минометная турель»',
     nameEn: 'A/M-23 EMS Mortar Sentry',
     category: 'defensive',
     warbond: 'default',
@@ -1063,8 +1753,17 @@ export const ITEMS: LoadoutItem[] = [
     typeEn: 'Robotics Workshop Stratagem'
   },
   {
+    id: 'laser-sentry',
+    nameRu: 'A/LAS-98 «Лазерная турель»',
+    nameEn: 'A/LAS-98 Laser Sentry',
+    category: 'defensive',
+    warbond: 'default',
+    typeRu: 'Оборонительная стратагема',
+    typeEn: 'Robotics Workshop Stratagem'
+  },
+  {
     id: 'flame-sentry',
-    nameRu: 'Огнеметная турель A/FLAM-40',
+    nameRu: 'A/FLAM-40 «Огнеметная турель»',
     nameEn: 'A/FLAM-40 Flame Sentry',
     category: 'defensive',
     warbond: 'flame',
@@ -1072,17 +1771,46 @@ export const ITEMS: LoadoutItem[] = [
     typeEn: 'Robotics Workshop Stratagem'
   },
   {
-    id: 'anti-air-sentry',
-    nameRu: 'Зенитная турель A/AA-12',
-    nameEn: 'A/AA-12 Anti-Air Sentry',
+    id: 'gas-mortar-sentry',
+    nameRu: 'A/GM-17 «Газовая минометная турель»',
+    nameEn: 'A/GM-17 Gas Mortar Sentry',
     category: 'defensive',
-    warbond: 'default',
+    warbond: 'chemical',
     typeRu: 'Оборонительная стратагема',
     typeEn: 'Robotics Workshop Stratagem'
   },
+
+  // --- EMPLACEMENTS ---
+  {
+    id: 'anti-personnel-mines',
+    nameRu: 'MD-6 «Противопехотное минное поле»',
+    nameEn: 'MD-6 Anti-Personnel Minefield',
+    category: 'defensive',
+    warbond: 'default',
+    typeRu: 'Оборонительная стратагема',
+    typeEn: 'Engineering Bay Stratagem'
+  },
+  {
+    id: 'incendiary-mines',
+    nameRu: 'MD-I4 «Зажигательные мины»',
+    nameEn: 'MD-I4 Incendiary Mines',
+    category: 'defensive',
+    warbond: 'default',
+    typeRu: 'Оборонительная стратагема',
+    typeEn: 'Engineering Bay Stratagem'
+  },
+  {
+    id: 'anti-tank-mines',
+    nameRu: 'MD-17 «Противотанковые мины»',
+    nameEn: 'MD-17 Anti-Tank Mines',
+    category: 'defensive',
+    warbond: 'default',
+    typeRu: 'Оборонительная стратагема',
+    typeEn: 'Engineering Bay Stratagem'
+  },
   {
     id: 'shield-relay',
-    nameRu: 'Реле генератора щита FX-12',
+    nameRu: 'FX-12 «Реле генератора щита»',
     nameEn: 'FX-12 Shield Generator Relay',
     category: 'defensive',
     warbond: 'default',
@@ -1090,22 +1818,40 @@ export const ITEMS: LoadoutItem[] = [
     typeEn: 'Engineering Bay Stratagem'
   },
   {
-    id: 'patriot-exosuit',
-    nameRu: 'Экзокостюм EXO-45 «Патриот»',
-    nameEn: 'EXO-45 Patriot Exosuit',
+    id: 'hmg-emplacement',
+    nameRu: 'E/MG-101 «Тяжелая пулеметная установка»',
+    nameEn: 'E/MG-101 HMG Emplacement',
     category: 'defensive',
-    warbond: 'exo',
-    typeRu: 'Экзокостюм',
-    typeEn: 'Exosuit Stratagem'
+    warbond: 'default',
+    typeRu: 'Оборонительная стратагема',
+    typeEn: 'Bridge Stratagem'
   },
   {
-    id: 'emancipator-exosuit',
-    nameRu: 'Экзокостюм EXO-49 «Освободитель»',
-    nameEn: 'EXO-49 Emancipator Exosuit',
+    id: 'grenadier-battlement',
+    nameRu: 'E/GL-21 «Гранатометная позиция»',
+    nameEn: 'E/GL-21 Grenadier Battlement',
     category: 'defensive',
-    warbond: 'exo',
-    typeRu: 'Экзокостюм',
-    typeEn: 'Exosuit Stratagem'
+    warbond: 'redacted',
+    typeRu: 'Оборонительная стратагема',
+    typeEn: 'Bridge Stratagem'
+  },
+  {
+    id: 'gas-mines',
+    nameRu: 'MD-8 «Газовые мины»',
+    nameEn: 'MD-8 Gas Mines',
+    category: 'defensive',
+    warbond: 'chemical',
+    typeRu: 'Оборонительная стратагема',
+    typeEn: 'Engineering Bay Stratagem'
+  },
+  {
+    id: 'anti-tank-emplacement',
+    nameRu: 'E/AT-12 «Противотанковая турель»',
+    nameEn: 'E/AT-12 Anti-Tank Emplacement',
+    category: 'defensive',
+    warbond: 'redacted',
+    typeRu: 'Оборонительная стратагема',
+    typeEn: 'Bridge Stratagem'
   },
 
   // --- BODY ARMOR ---
