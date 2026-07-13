@@ -188,9 +188,9 @@ export default function App() {
       // 5. Booster
       if (keys.includes('loadout-booster') || forceUltra) {
         const pool = ITEMS.filter(i => i.category === 'booster' && isItemEnabled(i));
-        newLoadout.booster = selectRandom(pool, ITEMS.find(i => i.id === 'hellpod-optimization')!);
+        newLoadout.booster = selectRandom(pool, ITEMS.find(i => i.id === 'booster-space-optimization')!);
       } else if (!newLoadout.booster) {
-        newLoadout.booster = ITEMS.find(i => i.id === 'hellpod-optimization')!;
+        newLoadout.booster = ITEMS.find(i => i.id === 'booster-space-optimization')!;
       }
 
       // 6. Stratagems
@@ -248,7 +248,7 @@ export default function App() {
         newLoadout.cape = selectRandom(pool, ITEMS.find(i => i.id === 'will-of-people')!);
       } else if (category === 'booster') {
         const pool = ITEMS.filter(i => i.category === 'booster' && isItemEnabled(i));
-        newLoadout.booster = selectRandom(pool, ITEMS.find(i => i.id === 'hellpod-optimization')!);
+        newLoadout.booster = selectRandom(pool, ITEMS.find(i => i.id === 'booster-space-optimization')!);
       } else if (category === 'stratagem' && typeof index === 'number') {
         let stratPool: LoadoutItem[] = [];
         if (enabledKeys.includes('loadout-support') || isUltraRandom) {
