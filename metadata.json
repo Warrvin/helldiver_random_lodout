@@ -1,0 +1,6 @@
+{
+  "name": "Helldivers 2 Loadout Randomizer",
+  "description": "Полностью переведенный на русский язык генератор случайного снаряжения для Helldivers 2 с точными внутриигровыми названиями предметов и поддержкой фильтрации.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
