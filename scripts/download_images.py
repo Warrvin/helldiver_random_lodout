@@ -36,6 +36,7 @@ except ImportError:
 
 try:
     from PIL import Image
+    import cairosvg
 except ImportError:
     sys.exit("Нужен пакет pillow: pip install pillow")
 
@@ -163,10 +164,33 @@ def download_and_save(url: str, dest: Path) -> bool:
     try:
         r = SESSION.get(url, timeout=30)
         r.raise_for_status()
-        img = Image.open(io.BytesIO(r.content)).convert("RGBA")
+
+        content = r.content
+        content_type = r.headers.get("Content-Type", "").lower()
+
         dest.parent.mkdir(parents=True, exist_ok=True)
+
+        # Если сервер вернул HTML вместо изображения
+        if b"<html" in content[:200].lower():
+            print("    ! сервер вернул HTML вместо изображения")
+            return False
+
+        # Если это SVG
+        if (
+            b"<svg" in content[:500].lower()
+            or "image/svg+xml" in content_type
+            or url.lower().endswith(".svg")
+        ):
+            png = cairosvg.svg2png(bytestring=content)
+            img = Image.open(io.BytesIO(png)).convert("RGBA")
+            img.save(dest, "PNG")
+            return True
+
+        # Обычные изображения
+        img = Image.open(io.BytesIO(content)).convert("RGBA")
         img.save(dest, "PNG")
         return True
+
     except Exception as e:
         print(f"    ! ошибка сохранения {url}: {e}")
         return False
