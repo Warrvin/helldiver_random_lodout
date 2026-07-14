@@ -946,25 +946,172 @@ function LoadoutCard({
     return w ? w.nameRu : 'Мобилизация!';
   };
 
+  // Determine color theme based on permit / category
+  let theme = {
+    topBar: 'bg-[#FFE000]',
+    border: 'border-neutral-800/80 group-hover:border-[#FFE000]/60',
+    textAccent: 'text-[#FFE000]',
+    bgGlow: 'hover:shadow-[0_0_20px_rgba(255,224,0,0.08)]',
+    badge: 'bg-neutral-900 text-[#FFE000] border-[#FFE000]/20',
+    permitText: 'EQUIPMENT'
+  };
+
+  if (item) {
+    if (item.category === 'offensive') {
+      theme = {
+        topBar: 'bg-red-500',
+        border: 'border-neutral-800/80 group-hover:border-red-500/60',
+        textAccent: 'text-red-400',
+        bgGlow: 'hover:shadow-[0_0_25px_rgba(239,68,68,0.18)] bg-red-950/5',
+        badge: 'bg-red-500/10 text-red-400 border-red-500/20',
+        permitText: 'OFFENSIVE PERMIT'
+      };
+    } else if (item.category === 'support' || item.category === 'backpack') {
+      theme = {
+        topBar: 'bg-cyan-500',
+        border: 'border-neutral-800/80 group-hover:border-cyan-500/60',
+        textAccent: 'text-cyan-400',
+        bgGlow: 'hover:shadow-[0_0_25px_rgba(6,182,212,0.18)] bg-cyan-950/5',
+        badge: 'bg-cyan-500/10 text-cyan-400 border-cyan-500/20',
+        permitText: 'SUPPLY PERMIT'
+      };
+    } else if (item.category === 'defensive') {
+      theme = {
+        topBar: 'bg-green-500',
+        border: 'border-neutral-800/80 group-hover:border-green-500/60',
+        textAccent: 'text-green-400',
+        bgGlow: 'hover:shadow-[0_0_25px_rgba(34,197,94,0.18)] bg-green-950/5',
+        badge: 'bg-green-500/10 text-green-400 border-green-500/20',
+        permitText: 'DEFENSIVE PERMIT'
+      };
+    }
+  }
+
+  // Determine category icon for placeholder representation
+  let categoryIcon = <Crosshair className={`w-6 h-6 ${theme.textAccent}`} />;
+  if (item) {
+    switch (item.category) {
+      case 'primary':
+        categoryIcon = <Crosshair className={`w-6 h-6 ${theme.textAccent}`} />;
+        break;
+      case 'secondary':
+        categoryIcon = <Target className={`w-6 h-6 ${theme.textAccent}`} />;
+        break;
+      case 'throwable':
+        categoryIcon = <Bomb className={`w-6 h-6 ${theme.textAccent}`} />;
+        break;
+      case 'support':
+        categoryIcon = <Zap className={`w-6 h-6 ${theme.textAccent}`} />;
+        break;
+      case 'backpack':
+        categoryIcon = <Shield className={`w-6 h-6 ${theme.textAccent}`} />;
+        break;
+      case 'offensive':
+        categoryIcon = <Flame className={`w-6 h-6 ${theme.textAccent}`} />;
+        break;
+      case 'defensive':
+        categoryIcon = <Cpu className={`w-6 h-6 ${theme.textAccent}`} />;
+        break;
+      case 'armor':
+        categoryIcon = <Shield className={`w-6 h-6 ${theme.textAccent}`} />;
+        break;
+      case 'helmet':
+        categoryIcon = <Cpu className={`w-6 h-6 ${theme.textAccent}`} />;
+        break;
+      case 'cape':
+        categoryIcon = <Compass className={`w-6 h-6 ${theme.textAccent}`} />;
+        break;
+      case 'booster':
+        categoryIcon = <Flame className={`w-6 h-6 ${theme.textAccent}`} />;
+        break;
+    }
+  } else {
+    if (categoryName.includes('ОСНОВНОЕ')) {
+      categoryIcon = <Crosshair className="w-6 h-6 text-neutral-600" />;
+    } else if (categoryName.includes('ВСП')) {
+      categoryIcon = <Target className="w-6 h-6 text-neutral-600" />;
+    } else if (categoryName.includes('ГРАНАТА')) {
+      categoryIcon = <Bomb className="w-6 h-6 text-neutral-600" />;
+    } else if (categoryName.includes('СТРАТАГЕМА')) {
+      categoryIcon = <Zap className="w-6 h-6 text-neutral-600" />;
+    } else if (categoryName.includes('БРОНИ')) {
+      categoryIcon = <Shield className="w-6 h-6 text-neutral-600" />;
+    } else if (categoryName.includes('ШЛЕМ')) {
+      categoryIcon = <Cpu className="w-6 h-6 text-neutral-600" />;
+    } else if (categoryName.includes('ПЛАЩ')) {
+      categoryIcon = <Compass className="w-6 h-6 text-neutral-600" />;
+    } else if (categoryName.includes('БУСТЕР')) {
+      categoryIcon = <Flame className="w-6 h-6 text-neutral-600" />;
+    }
+  }
+
+  const renderItemImage = () => {
+    if (item && item.imageUrl) {
+      return (
+        <div className="relative w-full h-[120px] flex items-center justify-center bg-black/40 border border-neutral-900 rounded p-2 overflow-hidden group-hover:bg-black/65 transition-colors">
+          {/* Subtle grid background */}
+          <div className="absolute inset-0 bg-[linear-gradient(to_right,#3741510f_1px,transparent_1px),linear-gradient(to_bottom,#3741510f_1px,transparent_1px)] bg-[size:10px_10px]" />
+          <img 
+            src={item.imageUrl} 
+            alt={item.nameRu} 
+            className="h-full max-h-[105px] w-auto object-contain mx-auto transition-all duration-300 group-hover:scale-105 drop-shadow-[0_4px_12px_rgba(0,0,0,0.7)]" 
+            referrerPolicy="no-referrer"
+            onError={(e) => {
+              e.currentTarget.style.display = 'none';
+            }}
+          />
+        </div>
+      );
+    }
+
+    // Default High-Tech Tactical HUD Fallback Placeholder
+    return (
+      <div className="relative w-full h-[120px] flex flex-col items-center justify-center bg-neutral-950/60 border border-neutral-900/60 rounded p-3 overflow-hidden group-hover:border-neutral-800 transition-colors">
+        {/* Tech Grid */}
+        <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff03_1px,transparent_1px),linear-gradient(to_bottom,#ffffff03_1px,transparent_1px)] bg-[size:8px_8px]" />
+        <div className="absolute top-1 left-1 w-2 h-2 border-t border-l border-neutral-800" />
+        <div className="absolute top-1 right-1 w-2 h-2 border-t border-r border-neutral-800" />
+        <div className="absolute bottom-1 left-1 w-2 h-2 border-b border-l border-neutral-800" />
+        <div className="absolute bottom-1 right-1 w-2 h-2 border-b border-r border-neutral-800" />
+        
+        {/* Floating Abstract Reticle */}
+        <div className={`p-4 rounded-full bg-black/35 border border-dashed ${locked ? 'border-neutral-800 text-neutral-600' : theme.border.split(' ')[0]} flex items-center justify-center transition-all duration-300 group-hover:scale-105`}>
+          {categoryIcon}
+        </div>
+        
+        <div className="text-[7px] font-mono text-neutral-600 mt-2 tracking-widest uppercase">
+          {item ? `ID: ${item.id.substring(0, 10).toUpperCase()}` : 'AWAITING DISPATCH'}
+        </div>
+      </div>
+    );
+  };
+
   return (
-    <div className={`relative group bg-[#0e1014] border ${
-      locked 
-        ? 'border-neutral-800/40 opacity-60' 
-        : 'border-neutral-800 hover:border-[#FFE000]/60 hover:shadow-[0_0_15px_rgba(255,224,0,0.06)]'
-    } p-4 flex flex-col justify-between h-[165px] transition-all relative`}>
+    <motion.div
+      key={item?.id || 'empty'}
+      initial={{ opacity: 0, scale: 0.97, y: 6 }}
+      animate={{ opacity: 1, scale: 1, y: 0 }}
+      exit={{ opacity: 0, scale: 0.97, y: -6 }}
+      transition={{ duration: 0.22, ease: [0.16, 1, 0.3, 1] }}
+      className={`relative group bg-[#0e1014] border ${theme.border} ${
+        locked 
+          ? 'opacity-65 border-neutral-800/40' 
+          : `${theme.bgGlow} transition-all`
+      } p-4 flex flex-col justify-between min-h-[300px] transition-all relative`}
+    >
       
-      {/* SOLID CARD TOP INDICATOR BAR */}
-      <div className={`absolute top-0 left-0 right-0 h-[3px] ${locked ? 'bg-neutral-800' : 'bg-[#FFE000]'}`} />
+      {/* COLOR-CODED SOLID CARD TOP INDICATOR BAR */}
+      <div className={`absolute top-0 left-0 right-0 h-[3px] ${locked ? 'bg-neutral-800' : theme.topBar}`} />
 
       {/* CARD HEADER */}
       <div className="flex items-center justify-between text-[10px] font-mono font-bold tracking-wider text-neutral-400 mb-2">
-        <div className="flex items-center gap-1.5">
-          <span className={locked ? 'text-neutral-500' : 'text-[#FFE000]'}>{icon}</span>
-          <span>{categoryName}</span>
+        <div className="flex items-center gap-1.5 truncate mr-1">
+          <span className={locked ? 'text-neutral-500' : theme.textAccent}>{icon}</span>
+          <span className="truncate">{categoryName}</span>
         </div>
         
         {/* LOCK & REROLL TOGGLE */}
-        <div className="flex items-center gap-1.5">
+        <div className="flex items-center gap-1.5 shrink-0">
           {onReroll && !locked && (
             <button
               onClick={(e) => {
@@ -992,26 +1139,41 @@ function LoadoutCard({
         </div>
       </div>
 
-      {/* CARD CONTENT (ITEM DETAILS) */}
-      <div className="flex-1 flex flex-col justify-center my-1">
+      {/* PERMIT / STAT STICKER BADGE */}
+      {item && (
+        <div className="flex justify-start mb-2">
+          <span className={`text-[8px] font-mono font-extrabold px-1.5 py-0.5 rounded border uppercase tracking-wider ${theme.badge}`}>
+            {theme.permitText}
+          </span>
+        </div>
+      )}
+
+      {/* CARD CONTENT (IMAGE CONTAINER) */}
+      <div className="my-1.5 flex-1 flex flex-col justify-center">
+        {renderItemImage()}
+      </div>
+
+      {/* CARD BODY (TEXT DESCRIPTION Below Image) */}
+      <div className="flex flex-col justify-end mt-2 mb-1.5 h-[65px]">
         {item ? (
           <motion.div
             key={item.id}
-            animate={isRolling ? { scale: [1, 1.04, 1] } : { scale: 1 }}
+            animate={isRolling ? { scale: [1, 1.03, 1] } : { scale: 1 }}
             transition={{ duration: 0.1 }}
+            className="space-y-0.5"
           >
-            <h2 className="text-base font-extrabold uppercase leading-snug text-white font-display line-clamp-2 tracking-wide group-hover:text-[#FFE000] transition-colors">
+            <h2 className="text-sm font-extrabold uppercase leading-tight text-white font-display line-clamp-2 tracking-wide group-hover:text-[#FFE000] transition-colors">
               {item.nameRu}
             </h2>
-            <div className="text-[10px] font-mono text-neutral-500 uppercase tracking-widest mt-0.5 line-clamp-1">
+            <div className="text-[9px] font-mono text-neutral-500 uppercase tracking-widest line-clamp-1">
               {item.typeRu || 'Снаряжение'}
             </div>
-            <div className="text-[10px] font-mono text-neutral-600 italic leading-none line-clamp-1 mt-1">
+            <div className="text-[9px] font-mono text-neutral-600 italic leading-none line-clamp-1">
               {item.nameEn}
             </div>
           </motion.div>
         ) : (
-          <div className="text-neutral-600 font-mono text-xs uppercase tracking-widest text-center py-4">
+          <div className="text-neutral-600 font-mono text-xs uppercase tracking-widest text-center py-2">
             Пусто
           </div>
         )}
@@ -1021,7 +1183,7 @@ function LoadoutCard({
       <div className="border-t border-neutral-900 pt-2 flex items-center justify-between text-[9px] font-mono">
         {item ? (
           <>
-            <span className="text-[#FFE000] font-bold uppercase truncate max-w-[130px]">
+            <span className="text-[#FFE000] font-bold uppercase truncate max-w-[150px]">
               [ {getWarbondName(item.warbond)} ]
             </span>
             <span className="text-neutral-600 text-[8px] uppercase">
@@ -1033,7 +1195,7 @@ function LoadoutCard({
         )}
       </div>
 
-    </div>
+    </motion.div>
   );
 }
 
