@@ -162,6 +162,7 @@ def pick_best_filename(filenames: list[str], hint: str) -> str | None:
 
 def download_and_save(url: str, dest: Path) -> bool:
     try:
+        print(">>> НОВАЯ ФУНКЦИЯ")
         r = SESSION.get(url, timeout=30)
         r.raise_for_status()
 
