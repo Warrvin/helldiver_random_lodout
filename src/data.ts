@@ -41,7 +41,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Штурмовая винтовка',
     typeEn: 'Assault Rifle',
-    imageUrl: '/assets/weapons/primary/assault-rifles/liberator.png'
+    imageUrl: './assets/weapons/primary/assault-rifles/liberator.png'
   },
   {
     id: 'liberator-penetrator',
@@ -51,7 +51,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Штурмовая винтовка',
     typeEn: 'Assault Rifle',
-    imageUrl: '/assets/weapons/primary/assault-rifles/liberator-penetrator.png'
+    imageUrl: './assets/weapons/primary/assault-rifles/liberator-penetrator.png'
   },
   {
     id: 'liberator-concussive',
@@ -61,7 +61,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'steeled',
     typeRu: 'Штурмовая винтовка',
     typeEn: 'Assault Rifle',
-    imageUrl: '/assets/weapons/primary/assault-rifles/liberator-concussive.png'
+    imageUrl: './assets/weapons/primary/assault-rifles/liberator-concussive.png'
   },
   {
     id: 'sta-52-ar',
@@ -71,7 +71,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Штурмовая винтовка',
     typeEn: 'Assault Rifle',
-    imageUrl: '/assets/weapons/primary/assault-rifles/sta-52-ar.png'
+    imageUrl: './assets/weapons/primary/assault-rifles/sta-52-ar.png'
   },
   {
     id: 'ar-32-pacifier',
@@ -81,7 +81,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'truth',
     typeRu: 'Штурмовая винтовка',
     typeEn: 'Assault Rifle',
-    imageUrl: '/assets/weapons/primary/assault-rifles/ar-32-pacifier.png'
+    imageUrl: './assets/weapons/primary/assault-rifles/ar-32-pacifier.png'
   },
   {
     id: 'ar-2-coyote',
@@ -91,7 +91,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Штурмовая винтовка',
     typeEn: 'Assault Rifle',
-    imageUrl: '/assets/weapons/primary/assault-rifles/ar-2-coyote.png'
+    imageUrl: './assets/weapons/primary/assault-rifles/ar-2-coyote.png'
   },
   {
     id: 'ma5c-ar',
@@ -101,7 +101,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Штурмовая винтовка',
     typeEn: 'Assault Rifle',
-    imageUrl: '/assets/weapons/primary/assault-rifles/ma5c-ar.png'
+    imageUrl: './assets/weapons/primary/assault-rifles/ma5c-ar.png'
   },
   {
     id: 'liberator-carbine',
@@ -111,7 +111,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'viper',
     typeRu: 'Штурмовая винтовка',
     typeEn: 'Assault Rifle',
-    imageUrl: '/assets/weapons/primary/assault-rifles/liberator-carbine.png'
+    imageUrl: './assets/weapons/primary/assault-rifles/liberator-carbine.png'
   },
   {
     id: 'tenderizer',
@@ -121,7 +121,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'polar',
     typeRu: 'Штурмовая винтовка',
     typeEn: 'Assault Rifle',
-    imageUrl: '/assets/weapons/primary/assault-rifles/tenderizer.png'
+    imageUrl: './assets/weapons/primary/assault-rifles/tenderizer.png'
   },
   {
     id: 'adjudicator',
@@ -131,7 +131,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'democratic',
     typeRu: 'Штурмовая винтовка',
     typeEn: 'Assault Rifle',
-    imageUrl: '/assets/weapons/primary/assault-rifles/adjudicator.png'
+    imageUrl: './assets/weapons/primary/assault-rifles/adjudicator.png'
   },
   {
     id: 'one-two-ar',
@@ -141,7 +141,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Штурмовая винтовка',
     typeEn: 'Assault Rifle',
-    imageUrl: '/assets/weapons/primary/assault-rifles/one-two-ar.png'
+    imageUrl: './assets/weapons/primary/assault-rifles/one-two-ar.png'
   },
   {
     id: 'suppressor-ar',
@@ -151,7 +151,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Штурмовая винтовка',
     typeEn: 'Assault Rifle',
-    imageUrl: '/assets/weapons/primary/assault-rifles/suppressor-ar.png'
+    imageUrl: './assets/weapons/primary/assault-rifles/suppressor-ar.png'
   },
 
   // Marksman Rifles
@@ -163,7 +163,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Марксманская винтовка',
     typeEn: 'Marksman Rifle',
-    imageUrl: '/assets/weapons/primary/marksman-rifles/r-2-amendment.png'
+    imageUrl: './assets/weapons/primary/marksman-rifles/r-2-amendment.png'
   },
   {
     id: 'r-2124-constitution',
@@ -173,7 +173,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Марксманская винтовка',
     typeEn: 'Marksman Rifle',
-    imageUrl: '/assets/weapons/primary/marksman-rifles/r-2124-constitution.png'
+    imageUrl: './assets/weapons/primary/marksman-rifles/r-2124-constitution.png'
   },
   {
     id: 'r-6-deadeye',
@@ -183,7 +183,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Марксманская винтовка',
     typeEn: 'Marksman Rifle',
-    imageUrl: '/assets/weapons/primary/marksman-rifles/r-6-deadeye.png'
+    imageUrl: './assets/weapons/primary/marksman-rifles/r-6-deadeye.png'
   },
   {
     id: 'diligence',
@@ -193,7 +193,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Марксманская винтовка',
     typeEn: 'Marksman Rifle',
-    imageUrl: '/assets/weapons/primary/marksman-rifles/diligence.png'
+    imageUrl: './assets/weapons/primary/marksman-rifles/diligence.png'
   },
   {
     id: 'diligence-counter-sniper',
@@ -203,7 +203,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Марксманская винтовка',
     typeEn: 'Marksman Rifle',
-    imageUrl: '/assets/weapons/primary/marksman-rifles/diligence-counter-sniper.png'
+    imageUrl: './assets/weapons/primary/marksman-rifles/diligence-counter-sniper.png'
   },
   {
     id: 'r-72-censor',
@@ -213,7 +213,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'truth',
     typeRu: 'Марксманская винтовка',
     typeEn: 'Marksman Rifle',
-    imageUrl: '/assets/weapons/primary/marksman-rifles/r-72-censor.png'
+    imageUrl: './assets/weapons/primary/marksman-rifles/r-72-censor.png'
   },
   {
     id: 'r-4-hyena',
@@ -223,7 +223,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Марксманская винтовка',
     typeEn: 'Marksman Rifle',
-    imageUrl: '/assets/weapons/primary/marksman-rifles/r-4-hyena.png'
+    imageUrl: './assets/weapons/primary/marksman-rifles/r-4-hyena.png'
   },
 
   // Submachine Guns
@@ -235,7 +235,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Пистолет-пулемет',
     typeEn: 'Submachine Gun',
-    imageUrl: '/assets/weapons/primary/smgs/knight.png'
+    imageUrl: './assets/weapons/primary/smgs/knight.png'
   },
   {
     id: 'sta-11-smg',
@@ -245,7 +245,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Пистолет-пулемет',
     typeEn: 'Submachine Gun',
-    imageUrl: '/assets/weapons/primary/smgs/sta-11-smg.png'
+    imageUrl: './assets/weapons/primary/smgs/sta-11-smg.png'
   },
   {
     id: 'm7s-smg',
@@ -255,7 +255,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Пистолет-пулемет',
     typeEn: 'Submachine Gun',
-    imageUrl: '/assets/weapons/primary/smgs/m7s-smg.png'
+    imageUrl: './assets/weapons/primary/smgs/m7s-smg.png'
   },
   {
     id: 'smg-32-reprimand',
@@ -265,7 +265,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'truth',
     typeRu: 'Пистолет-пулемет',
     typeEn: 'Submachine Gun',
-    imageUrl: '/assets/weapons/primary/smgs/smg-32-reprimand.png'
+    imageUrl: './assets/weapons/primary/smgs/smg-32-reprimand.png'
   },
   {
     id: 'defender',
@@ -275,7 +275,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Пистолет-пулемет',
     typeEn: 'Submachine Gun',
-    imageUrl: '/assets/weapons/primary/smgs/defender.png'
+    imageUrl: './assets/weapons/primary/smgs/defender.png'
   },
   {
     id: 'pummeler',
@@ -285,7 +285,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'polar',
     typeRu: 'Пистолет-пулемет',
     typeEn: 'Submachine Gun',
-    imageUrl: '/assets/weapons/primary/smgs/pummeler.png'
+    imageUrl: './assets/weapons/primary/smgs/pummeler.png'
   },
   {
     id: 'smg-flam-34-stoker',
@@ -295,7 +295,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'flame',
     typeRu: 'Пистолет-пулемет',
     typeEn: 'Submachine Gun',
-    imageUrl: '/assets/weapons/primary/smgs/smg-flam-34-stoker.png'
+    imageUrl: './assets/weapons/primary/smgs/smg-flam-34-stoker.png'
   },
   {
     id: 'smg-203-gallant',
@@ -305,7 +305,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Пистолет-пулемет',
     typeEn: 'Submachine Gun',
-    imageUrl: '/assets/weapons/primary/smgs/smg-203-gallant.png'
+    imageUrl: './assets/weapons/primary/smgs/smg-203-gallant.png'
   },
 
   // Shotguns
@@ -317,7 +317,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Помповый дробовик',
     typeEn: 'Pump-Action Shotgun',
-    imageUrl: '/assets/weapons/primary/shotguns/punisher.png'
+    imageUrl: './assets/weapons/primary/shotguns/punisher.png'
   },
   {
     id: 'slugger',
@@ -327,7 +327,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Помповый дробовик',
     typeEn: 'Pump-Action Shotgun',
-    imageUrl: '/assets/weapons/primary/shotguns/slugger.png'
+    imageUrl: './assets/weapons/primary/shotguns/slugger.png'
   },
   {
     id: 'sg-20-halt',
@@ -337,7 +337,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Дробовик',
     typeEn: 'Shotgun',
-    imageUrl: '/assets/weapons/primary/shotguns/sg-20-halt.png'
+    imageUrl: './assets/weapons/primary/shotguns/sg-20-halt.png'
   },
   {
     id: 'cookout',
@@ -347,7 +347,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'flame',
     typeRu: 'Помповый дробовик',
     typeEn: 'Pump-Action Shotgun',
-    imageUrl: '/assets/weapons/primary/shotguns/cookout.png'
+    imageUrl: './assets/weapons/primary/shotguns/cookout.png'
   },
   {
     id: 'double-freedom',
@@ -357,7 +357,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Двуствольный дробовик',
     typeEn: 'Double-Barrel Shotgun',
-    imageUrl: '/assets/weapons/primary/shotguns/double-freedom.png'
+    imageUrl: './assets/weapons/primary/shotguns/double-freedom.png'
   },
   {
     id: 'm90a-shotgun',
@@ -367,7 +367,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Дробовик',
     typeEn: 'Shotgun',
-    imageUrl: '/assets/weapons/primary/shotguns/m90a-shotgun.png'
+    imageUrl: './assets/weapons/primary/shotguns/m90a-shotgun.png'
   },
   {
     id: 'breaker',
@@ -377,7 +377,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Автоматический дробовик',
     typeEn: 'Automatic Shotgun',
-    imageUrl: '/assets/weapons/primary/shotguns/breaker.png'
+    imageUrl: './assets/weapons/primary/shotguns/breaker.png'
   },
   {
     id: 'breaker-spray-pray',
@@ -387,7 +387,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Автоматический дробовик',
     typeEn: 'Automatic Shotgun',
-    imageUrl: '/assets/weapons/primary/shotguns/breaker-spray-pray.png'
+    imageUrl: './assets/weapons/primary/shotguns/breaker-spray-pray.png'
   },
   {
     id: 'breaker-incendiary',
@@ -397,7 +397,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'steeled',
     typeRu: 'Автоматический дробовик',
     typeEn: 'Automatic Shotgun',
-    imageUrl: '/assets/weapons/primary/shotguns/breaker-incendiary.png'
+    imageUrl: './assets/weapons/primary/shotguns/breaker-incendiary.png'
   },
   {
     id: 'sg-97-sweeper',
@@ -407,7 +407,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Дробовик',
     typeEn: 'Shotgun',
-    imageUrl: '/assets/weapons/primary/shotguns/sg-97-sweeper.png'
+    imageUrl: './assets/weapons/primary/shotguns/sg-97-sweeper.png'
   },
 
   // Explosive
@@ -419,7 +419,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'democratic',
     typeRu: 'Арбалет',
     typeEn: 'Explosive Crossbow',
-    imageUrl: '/assets/weapons/primary/explosive/exploding-crossbow.png'
+    imageUrl: './assets/weapons/primary/explosive/exploding-crossbow.png'
   },
   {
     id: 'eruptor',
@@ -429,7 +429,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'democratic',
     typeRu: 'Болтовая винтовка',
     typeEn: 'Bolt-Action Rifle',
-    imageUrl: '/assets/weapons/primary/marksman-rifles/eruptor.png'
+    imageUrl: './assets/weapons/primary/marksman-rifles/eruptor.png'
   },
 
   // Energy-Based
@@ -441,7 +441,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'cutting',
     typeRu: 'Плазменный дробовик',
     typeEn: 'Plasma Shotgun',
-    imageUrl: '/assets/weapons/primary/shotguns/punisher-plasma.png'
+    imageUrl: './assets/weapons/primary/shotguns/punisher-plasma.png'
   },
   {
     id: 'plas-39-accelerator',
@@ -451,7 +451,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Энергетическая винтовка',
     typeEn: 'Energy Rifle',
-    imageUrl: '/assets/weapons/primary/energy/plas-39-accelerator.png'
+    imageUrl: './assets/weapons/primary/energy/plas-39-accelerator.png'
   },
   {
     id: 'blitzer',
@@ -461,7 +461,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'cutting',
     typeRu: 'Дуговое оружие',
     typeEn: 'Arc Weapon',
-    imageUrl: '/assets/weapons/primary/energy/blitzer.png'
+    imageUrl: './assets/weapons/primary/energy/blitzer.png'
   },
   {
     id: 'scythe',
@@ -471,7 +471,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Лазерное оружие',
     typeEn: 'Laser Weapon',
-    imageUrl: '/assets/weapons/primary/energy/scythe.png'
+    imageUrl: './assets/weapons/primary/energy/scythe.png'
   },
   {
     id: 'sickle',
@@ -481,7 +481,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'cutting',
     typeRu: 'Лазерное оружие',
     typeEn: 'Laser Weapon',
-    imageUrl: '/assets/weapons/primary/energy/sickle.png'
+    imageUrl: './assets/weapons/primary/energy/sickle.png'
   },
   {
     id: 'las-17-double-edge',
@@ -491,7 +491,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Лазерное оружие',
     typeEn: 'Laser Weapon',
-    imageUrl: '/assets/weapons/primary/energy/las-17-double-edge.png'
+    imageUrl: './assets/weapons/primary/energy/las-17-double-edge.png'
   },
   {
     id: 'scorcher',
@@ -501,7 +501,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Плазменное оружие',
     typeEn: 'Plasma Weapon',
-    imageUrl: '/assets/weapons/primary/energy/scorcher.png'
+    imageUrl: './assets/weapons/primary/energy/scorcher.png'
   },
   {
     id: 'purifier',
@@ -511,7 +511,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'polar',
     typeRu: 'Плазменное оружие',
     typeEn: 'Plasma Weapon',
-    imageUrl: '/assets/weapons/primary/energy/purifier.png'
+    imageUrl: './assets/weapons/primary/energy/purifier.png'
   },
   {
     id: 'las-13-trident',
@@ -521,7 +521,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Лазерный дробовик',
     typeEn: 'Laser Shotgun',
-    imageUrl: '/assets/weapons/primary/shotguns/las-13-trident.png'
+    imageUrl: './assets/weapons/primary/shotguns/las-13-trident.png'
   },
 
   // Special
@@ -533,7 +533,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Специальное оружие',
     typeEn: 'Special Weapon',
-    imageUrl: '/assets/weapons/primary/explosive/vg-70-variable.png'
+    imageUrl: './assets/weapons/primary/explosive/vg-70-variable.png'
   },
   {
     id: 'torcher',
@@ -543,7 +543,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'flame',
     typeRu: 'Персональный огнемет',
     typeEn: 'Flamethrower',
-    imageUrl: '/assets/weapons/primary/energy/torcher.png'
+    imageUrl: './assets/weapons/primary/energy/torcher.png'
   },
   {
     id: 'dominator',
@@ -553,7 +553,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'steeled',
     typeRu: 'Реактивное оружие',
     typeEn: 'Jet-Assisted Weapon',
-    imageUrl: '/assets/weapons/primary/explosive/dominator.png'
+    imageUrl: './assets/weapons/primary/explosive/dominator.png'
   },
 
   // --- SECONDARY WEAPONS ---
@@ -566,7 +566,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Пистолет',
     typeEn: 'Pistol',
-    imageUrl: '/assets/weapons/secondary/pistols/p-92-warrant.png'
+    imageUrl: './assets/weapons/secondary/pistols/p-92-warrant.png'
   },
   {
     id: 'peacemaker',
@@ -576,7 +576,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Полуавтоматический пистолет',
     typeEn: 'Pistol',
-    imageUrl: '/assets/weapons/secondary/pistols/peacemaker.png'
+    imageUrl: './assets/weapons/secondary/pistols/peacemaker.png'
   },
   {
     id: 'redeemer',
@@ -586,7 +586,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Автоматический пистолет',
     typeEn: 'Automatic Pistol',
-    imageUrl: '/assets/weapons/secondary/pistols/redeemer.png'
+    imageUrl: './assets/weapons/secondary/pistols/redeemer.png'
   },
   {
     id: 'verdict',
@@ -596,7 +596,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'polar',
     typeRu: 'Пистолет',
     typeEn: 'Pistol',
-    imageUrl: '/assets/weapons/secondary/pistols/verdict.png'
+    imageUrl: './assets/weapons/secondary/pistols/verdict.png'
   },
   {
     id: 'm6c-socom',
@@ -606,7 +606,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Пистолет',
     typeEn: 'Pistol',
-    imageUrl: '/assets/weapons/secondary/pistols/m6c-socom.png'
+    imageUrl: './assets/weapons/secondary/pistols/m6c-socom.png'
   },
   {
     id: 'senator',
@@ -616,7 +616,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'steeled',
     typeRu: 'Револьвер',
     typeEn: 'Revolver',
-    imageUrl: '/assets/weapons/secondary/pistols/senator.png'
+    imageUrl: './assets/weapons/secondary/pistols/senator.png'
   },
   {
     id: 'p-69-veto',
@@ -626,7 +626,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Пистолет',
     typeEn: 'Pistol',
-    imageUrl: '/assets/weapons/secondary/pistols/p-69-veto.png'
+    imageUrl: './assets/weapons/secondary/pistols/p-69-veto.png'
   },
 
   // Melee
@@ -638,7 +638,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Холодное оружие ближнего боя',
     typeEn: 'Melee Weapon',
-    imageUrl: '/assets/weapons/secondary/melee/cqc-19-stun-lance.png'
+    imageUrl: './assets/weapons/secondary/melee/cqc-19-stun-lance.png'
   },
   {
     id: 'melee-saber',
@@ -648,7 +648,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Холодное оружие ближнего боя',
     typeEn: 'Melee Weapon',
-    imageUrl: '/assets/weapons/secondary/melee/melee-saber.png'
+    imageUrl: './assets/weapons/secondary/melee/melee-saber.png'
   },
   {
     id: 'cqc-30-stun-baton',
@@ -658,7 +658,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Холодное оружие ближнего боя',
     typeEn: 'Melee Weapon',
-    imageUrl: '/assets/weapons/secondary/melee/cqc-30-stun-baton.png'
+    imageUrl: './assets/weapons/secondary/melee/cqc-30-stun-baton.png'
   },
   {
     id: 'cqc-5-hatchet',
@@ -668,7 +668,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Холодное оружие ближнего боя',
     typeEn: 'Melee Weapon',
-    imageUrl: '/assets/weapons/secondary/melee/cqc-5-hatchet.png'
+    imageUrl: './assets/weapons/secondary/melee/cqc-5-hatchet.png'
   },
   {
     id: 'cqc-73-entrenchment',
@@ -678,7 +678,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Холодное оружие ближнего боя',
     typeEn: 'Melee Weapon',
-    imageUrl: '/assets/weapons/secondary/melee/cqc-73-entrenchment.png'
+    imageUrl: './assets/weapons/secondary/melee/cqc-73-entrenchment.png'
   },
   {
     id: 'cqc-42-machete',
@@ -688,7 +688,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Холодное оружие ближнего боя',
     typeEn: 'Melee Weapon',
-    imageUrl: '/assets/weapons/secondary/melee/cqc-42-machete.png'
+    imageUrl: './assets/weapons/secondary/melee/cqc-42-machete.png'
   },
 
   // Special Secondaries
@@ -700,7 +700,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'chemical',
     typeRu: 'Вспомогательный пистолет',
     typeEn: 'Support Pistol',
-    imageUrl: '/assets/weapons/secondary/pistols/stim-pistol.png'
+    imageUrl: './assets/weapons/secondary/pistols/stim-pistol.png'
   },
   {
     id: 'bushwhacker',
@@ -710,7 +710,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'viper',
     typeRu: 'Обрез дробовика',
     typeEn: 'Shotgun Pistol',
-    imageUrl: '/assets/weapons/secondary/pistols/bushwhacker.png'
+    imageUrl: './assets/weapons/secondary/pistols/bushwhacker.png'
   },
   {
     id: 'las-58-talon',
@@ -720,7 +720,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Энергетический пистолет',
     typeEn: 'Laser Pistol',
-    imageUrl: '/assets/weapons/secondary/pistols/las-58-talon.png'
+    imageUrl: './assets/weapons/secondary/pistols/las-58-talon.png'
   },
   {
     id: 'crisper',
@@ -730,7 +730,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'flame',
     typeRu: 'Карманный огнемет',
     typeEn: 'Pocket Flamethrower',
-    imageUrl: '/assets/weapons/secondary/pistols/crisper.png'
+    imageUrl: './assets/weapons/secondary/pistols/crisper.png'
   },
   {
     id: 'grenade-pistol',
@@ -740,7 +740,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'democratic',
     typeRu: 'Гранатометный пистолет',
     typeEn: 'Grenade Pistol',
-    imageUrl: '/assets/weapons/secondary/pistols/grenade-pistol.png'
+    imageUrl: './assets/weapons/secondary/pistols/grenade-pistol.png'
   },
   {
     id: 'dagger',
@@ -750,7 +750,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'cutting',
     typeRu: 'Лазерный пистолет',
     typeEn: 'Laser Pistol',
-    imageUrl: '/assets/weapons/secondary/pistols/dagger.png'
+    imageUrl: './assets/weapons/secondary/pistols/dagger.png'
   },
   {
     id: 'gp-20-ultimatum',
@@ -760,7 +760,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Гранатометный пистолет',
     typeEn: 'Grenade Pistol',
-    imageUrl: '/assets/weapons/secondary/pistols/gp-20-ultimatum.png'
+    imageUrl: './assets/weapons/secondary/pistols/gp-20-ultimatum.png'
   },
   {
     id: 'loyalist',
@@ -770,7 +770,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'truth',
     typeRu: 'Плазменный пистолет',
     typeEn: 'Plasma Pistol',
-    imageUrl: '/assets/weapons/secondary/pistols/loyalist.png'
+    imageUrl: './assets/weapons/secondary/pistols/loyalist.png'
   },
   {
     id: 'p-35-reeducator',
@@ -780,7 +780,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Пистолет',
     typeEn: 'Pistol',
-    imageUrl: '/assets/weapons/secondary/pistols/p-35-reeducator.png'
+    imageUrl: './assets/weapons/secondary/pistols/p-35-reeducator.png'
   },
   {
     id: 'p-33-missile-pistol',
@@ -790,7 +790,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Ракетный пистолет',
     typeEn: 'Missile Pistol',
-    imageUrl: '/assets/weapons/secondary/pistols/p-33-missile-pistol.png'
+    imageUrl: './assets/weapons/secondary/pistols/p-33-missile-pistol.png'
   },
 
   // --- THROWABLES ---
@@ -803,7 +803,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Взрывчатка',
     typeEn: 'Dynamite',
-    imageUrl: '/assets/throwables/ted-63-dynamite.png'
+    imageUrl: './assets/throwables/ted-63-dynamite.png'
   },
   {
     id: 'frag-grenade',
@@ -813,7 +813,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Осколочная граната',
     typeEn: 'Frag Grenade',
-    imageUrl: '/assets/throwables/frag-grenade.png'
+    imageUrl: './assets/throwables/frag-grenade.png'
   },
   {
     id: 'high-explosive',
@@ -823,7 +823,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Фугасная граната',
     typeEn: 'High Explosive Grenade',
-    imageUrl: '/assets/throwables/high-explosive.png'
+    imageUrl: './assets/throwables/high-explosive.png'
   },
   {
     id: 'incendiary-grenade',
@@ -833,7 +833,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Зажигательная граната',
     typeEn: 'Incendiary Grenade',
-    imageUrl: '/assets/throwables/incendiary-grenade.png'
+    imageUrl: './assets/throwables/incendiary-grenade.png'
   },
   {
     id: 'g-7-pineapple',
@@ -843,7 +843,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Осколочная граната',
     typeEn: 'Frag Grenade',
-    imageUrl: '/assets/throwables/g-7-pineapple.png'
+    imageUrl: './assets/throwables/g-7-pineapple.png'
   },
   // Special
   {
@@ -854,7 +854,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Контактная граната',
     typeEn: 'Impact Grenade',
-    imageUrl: '/assets/throwables/impact-grenade.png'
+    imageUrl: './assets/throwables/impact-grenade.png'
   },
   {
     id: 'g-13-incendiary-impact',
@@ -864,7 +864,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'flame',
     typeRu: 'Зажигательная граната',
     typeEn: 'Incendiary Impact Grenade',
-    imageUrl: '/assets/throwables/g-13-incendiary-impact.png'
+    imageUrl: './assets/throwables/g-13-incendiary-impact.png'
   },
   {
     id: 'stun-grenade',
@@ -874,7 +874,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'cutting',
     typeRu: 'Светошумовая граната',
     typeEn: 'Stun Grenade',
-    imageUrl: '/assets/throwables/stun-grenade.png'
+    imageUrl: './assets/throwables/stun-grenade.png'
   },
   {
     id: 'g-4-gas',
@@ -884,7 +884,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'chemical',
     typeRu: 'Газовая граната',
     typeEn: 'Gas Grenade',
-    imageUrl: '/assets/throwables/g-4-gas.png'
+    imageUrl: './assets/throwables/g-4-gas.png'
   },
   {
     id: 'g-50-seeker',
@@ -894,7 +894,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Умная граната',
     typeEn: 'Seeker Grenade',
-    imageUrl: '/assets/throwables/g-50-seeker.png'
+    imageUrl: './assets/throwables/g-50-seeker.png'
   },
   {
     id: 'smoke-grenade',
@@ -904,7 +904,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Дымовая граната',
     typeEn: 'Smoke Grenade',
-    imageUrl: '/assets/throwables/smoke-grenade.png'
+    imageUrl: './assets/throwables/smoke-grenade.png'
   },
   {
     id: 'thermite-grenade',
@@ -914,7 +914,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'democratic',
     typeRu: 'Термитная граната',
     typeEn: 'Thermite Grenade',
-    imageUrl: '/assets/throwables/thermite-grenade.png'
+    imageUrl: './assets/throwables/thermite-grenade.png'
   },
   {
     id: 'throwing-knife',
@@ -924,7 +924,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'viper',
     typeRu: 'Метательный нож',
     typeEn: 'Throwing Knife',
-    imageUrl: '/assets/throwables/throwing-knife.png'
+    imageUrl: './assets/throwables/throwing-knife.png'
   },
   {
     id: 'g-142-pyrotech',
@@ -934,7 +934,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Сигнальная граната',
     typeEn: 'Pyrotech Grenade',
-    imageUrl: '/assets/throwables/g-142-pyrotech.png'
+    imageUrl: './assets/throwables/g-142-pyrotech.png'
   },
   {
     id: 'g-109-urchin',
@@ -944,7 +944,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Игольчатая граната',
     typeEn: 'Urchin Grenade',
-    imageUrl: '/assets/throwables/g-109-urchin.png'
+    imageUrl: './assets/throwables/g-109-urchin.png'
   },
   {
     id: 'g-31-arc',
@@ -954,7 +954,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Дуговая граната',
     typeEn: 'Arc Grenade',
-    imageUrl: '/assets/throwables/g-31-arc.png'
+    imageUrl: './assets/throwables/g-31-arc.png'
   },
   {
     id: 'tm-1-lure',
@@ -964,7 +964,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Мина-приманка',
     typeEn: 'Lure Mine',
-    imageUrl: '/assets/throwables/tm-1-lure.png'
+    imageUrl: './assets/throwables/tm-1-lure.png'
   },
   {
     id: 'g-89-smokescreen',
@@ -974,7 +974,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Дымовая завеса',
     typeEn: 'Smokescreen Grenade',
-    imageUrl: '/assets/throwables/g-89-smokescreen.png'
+    imageUrl: './assets/throwables/g-89-smokescreen.png'
   },
   {
     id: 'g-sh-39-shield',
@@ -984,7 +984,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Генераторный щит',
     typeEn: 'Shield Grenade',
-    imageUrl: '/assets/throwables/g-sh-39-shield.png'
+    imageUrl: './assets/throwables/g-sh-39-shield.png'
   },
   {
     id: 'g-48-giga',
@@ -994,7 +994,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Тяжелая граната',
     typeEn: 'Heavy Grenade',
-    imageUrl: '/assets/throwables/g-48-giga.png'
+    imageUrl: './assets/throwables/g-48-giga.png'
   },
 
   // --- BOOSTERS ---
@@ -1004,7 +1004,7 @@ export const ITEMS: LoadoutItem[] = [
     nameEn: 'Hellpod Space Optimization',
     category: 'booster',
     warbond: 'default',
-    imageUrl: '/assets/boosters/booster-space-optimization.png'
+    imageUrl: './assets/boosters/booster-space-optimization.png'
   },
   {
     id: 'booster-vitality-enhancement',
@@ -1012,7 +1012,7 @@ export const ITEMS: LoadoutItem[] = [
     nameEn: 'Vitality Enhancement',
     category: 'booster',
     warbond: 'default',
-    imageUrl: '/assets/boosters/booster-vitality-enhancement.png'
+    imageUrl: './assets/boosters/booster-vitality-enhancement.png'
   },
   {
     id: 'booster-uav-recon',
@@ -1020,7 +1020,7 @@ export const ITEMS: LoadoutItem[] = [
     nameEn: 'UAV Recon Booster',
     category: 'booster',
     warbond: 'default',
-    imageUrl: '/assets/boosters/booster-uav-recon.png'
+    imageUrl: './assets/boosters/booster-uav-recon.png'
   },
   {
     id: 'booster-stamina-enhancement',
@@ -1028,7 +1028,7 @@ export const ITEMS: LoadoutItem[] = [
     nameEn: 'Stamina Enhancement',
     category: 'booster',
     warbond: 'default',
-    imageUrl: '/assets/boosters/booster-stamina-enhancement.png'
+    imageUrl: './assets/boosters/booster-stamina-enhancement.png'
   },
   {
     id: 'booster-muscle-enhancement',
@@ -1036,7 +1036,7 @@ export const ITEMS: LoadoutItem[] = [
     nameEn: 'Muscle Enhancement',
     category: 'booster',
     warbond: 'steeled',
-    imageUrl: '/assets/boosters/booster-muscle-enhancement.png'
+    imageUrl: './assets/boosters/booster-muscle-enhancement.png'
   },
   {
     id: 'booster-increased-reinforcement',
@@ -1044,7 +1044,7 @@ export const ITEMS: LoadoutItem[] = [
     nameEn: 'Increased Reinforcement Budget',
     category: 'booster',
     warbond: 'default',
-    imageUrl: '/assets/boosters/booster-increased-reinforcement.png'
+    imageUrl: './assets/boosters/booster-increased-reinforcement.png'
   },
   {
     id: 'booster-flexible-reinforcement',
@@ -1052,7 +1052,7 @@ export const ITEMS: LoadoutItem[] = [
     nameEn: 'Flexible Reinforcement Budget',
     category: 'booster',
     warbond: 'steeled',
-    imageUrl: '/assets/boosters/booster-flexible-reinforcement.png'
+    imageUrl: './assets/boosters/booster-flexible-reinforcement.png'
   },
   {
     id: 'booster-localization-confusion',
@@ -1060,7 +1060,7 @@ export const ITEMS: LoadoutItem[] = [
     nameEn: 'Localization Confusion',
     category: 'booster',
     warbond: 'democratic',
-    imageUrl: '/assets/boosters/booster-localization-confusion.png'
+    imageUrl: './assets/boosters/booster-localization-confusion.png'
   },
   {
     id: 'booster-expert-pilot',
@@ -1068,7 +1068,7 @@ export const ITEMS: LoadoutItem[] = [
     nameEn: 'Expert Extraction Pilot',
     category: 'booster',
     warbond: 'polar',
-    imageUrl: '/assets/boosters/booster-expert-pilot.png'
+    imageUrl: './assets/boosters/booster-expert-pilot.png'
   },
   {
     id: 'booster-motivational-shocks',
@@ -1076,7 +1076,7 @@ export const ITEMS: LoadoutItem[] = [
     nameEn: 'Motivational Shocks',
     category: 'booster',
     warbond: 'polar',
-    imageUrl: '/assets/boosters/booster-motivational-shocks.png'
+    imageUrl: './assets/boosters/booster-motivational-shocks.png'
   },
   {
     id: 'booster-experimental-infusion',
@@ -1084,7 +1084,7 @@ export const ITEMS: LoadoutItem[] = [
     nameEn: 'Experimental Infusion',
     category: 'booster',
     warbond: 'viper',
-    imageUrl: '/assets/boosters/booster-experimental-infusion.png'
+    imageUrl: './assets/boosters/booster-experimental-infusion.png'
   },
   {
     id: 'booster-firebomb-hellpods',
@@ -1092,7 +1092,7 @@ export const ITEMS: LoadoutItem[] = [
     nameEn: 'Firebomb Hellpods',
     category: 'booster',
     warbond: 'flame',
-    imageUrl: '/assets/boosters/booster-firebomb-hellpods.png'
+    imageUrl: './assets/boosters/booster-firebomb-hellpods.png'
   },
   {
     id: 'booster-dead-sprint',
@@ -1100,7 +1100,7 @@ export const ITEMS: LoadoutItem[] = [
     nameEn: 'Dead Sprint',
     category: 'booster',
     warbond: 'chemical',
-    imageUrl: '/assets/boosters/booster-dead-sprint.png'
+    imageUrl: './assets/boosters/booster-dead-sprint.png'
   },
   {
     id: 'booster-armed-resupply',
@@ -1108,7 +1108,7 @@ export const ITEMS: LoadoutItem[] = [
     nameEn: 'Armed Resupply Pods',
     category: 'booster',
     warbond: 'truth',
-    imageUrl: '/assets/boosters/booster-armed-resupply.png'
+    imageUrl: './assets/boosters/booster-armed-resupply.png'
   },
   {
     id: 'booster-sample-extricator',
@@ -1116,7 +1116,7 @@ export const ITEMS: LoadoutItem[] = [
     nameEn: 'Sample Extricator',
     category: 'booster',
     warbond: 'redacted',
-    imageUrl: '/assets/boosters/booster-sample-extricator.png'
+    imageUrl: './assets/boosters/booster-sample-extricator.png'
   },
   {
     id: 'booster-sample-scanner',
@@ -1124,7 +1124,7 @@ export const ITEMS: LoadoutItem[] = [
     nameEn: 'Sample Scanner',
     category: 'booster',
     warbond: 'redacted',
-    imageUrl: '/assets/boosters/booster-sample-scanner.png'
+    imageUrl: './assets/boosters/booster-sample-scanner.png'
   },
   {
     id: 'booster-stun-pods',
@@ -1132,7 +1132,7 @@ export const ITEMS: LoadoutItem[] = [
     nameEn: 'Stun Pods',
     category: 'booster',
     warbond: 'redacted',
-    imageUrl: '/assets/boosters/booster-stun-pods.png'
+    imageUrl: './assets/boosters/booster-stun-pods.png'
   },
   {
     id: 'booster-concealed-insertion',
@@ -1140,7 +1140,7 @@ export const ITEMS: LoadoutItem[] = [
     nameEn: 'Concealed Insertion',
     category: 'booster',
     warbond: 'redacted',
-    imageUrl: '/assets/boosters/booster-concealed-insertion.png'
+    imageUrl: './assets/boosters/booster-concealed-insertion.png'
   },
 
   // --- ORBITAL STRIKES ---
@@ -1152,7 +1152,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Орбитальный удар',
     typeEn: 'Orbital Cannon Stratagem',
-    imageUrl: '/assets/stratagems/offensive/orbital-precision.png'
+    imageUrl: './assets/stratagems/offensive/orbital-precision.png'
   },
   {
     id: 'orbital-gatling',
@@ -1162,7 +1162,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Орбитальный удар',
     typeEn: 'Orbital Cannon Stratagem',
-    imageUrl: '/assets/stratagems/offensive/orbital-gatling.png'
+    imageUrl: './assets/stratagems/offensive/orbital-gatling.png'
   },
   {
     id: 'orbital-gas',
@@ -1172,7 +1172,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Орбитальный удар',
     typeEn: 'Orbital Cannon Stratagem',
-    imageUrl: '/assets/stratagems/offensive/orbital-gas.png'
+    imageUrl: './assets/stratagems/offensive/orbital-gas.png'
   },
   {
     id: 'orbital-120-he',
@@ -1182,7 +1182,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Орбитальный удар',
     typeEn: 'Orbital Cannon Stratagem',
-    imageUrl: '/assets/stratagems/offensive/orbital-120-he.png'
+    imageUrl: './assets/stratagems/offensive/orbital-120-he.png'
   },
   {
     id: 'orbital-airburst',
@@ -1192,7 +1192,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Орбитальный удар',
     typeEn: 'Orbital Cannon Stratagem',
-    imageUrl: '/assets/stratagems/offensive/orbital-airburst.png'
+    imageUrl: './assets/stratagems/offensive/orbital-airburst.png'
   },
   {
     id: 'orbital-smoke',
@@ -1202,7 +1202,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Орбитальный удар',
     typeEn: 'Orbital Cannon Stratagem',
-    imageUrl: '/assets/stratagems/offensive/orbital-smoke.png'
+    imageUrl: './assets/stratagems/offensive/orbital-smoke.png'
   },
   {
     id: 'orbital-ems',
@@ -1212,7 +1212,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Орбитальный удар',
     typeEn: 'Orbital Cannon Stratagem',
-    imageUrl: '/assets/stratagems/offensive/orbital-ems.png'
+    imageUrl: './assets/stratagems/offensive/orbital-ems.png'
   },
   {
     id: 'orbital-380-he',
@@ -1222,7 +1222,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Орбитальный удар',
     typeEn: 'Orbital Cannon Stratagem',
-    imageUrl: '/assets/stratagems/offensive/orbital-380-he.png'
+    imageUrl: './assets/stratagems/offensive/orbital-380-he.png'
   },
   {
     id: 'orbital-walking',
@@ -1232,7 +1232,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Орбитальный удар',
     typeEn: 'Orbital Cannon Stratagem',
-    imageUrl: '/assets/stratagems/offensive/orbital-walking.png'
+    imageUrl: './assets/stratagems/offensive/orbital-walking.png'
   },
   {
     id: 'orbital-laser',
@@ -1242,7 +1242,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Орбитальный удар',
     typeEn: 'Orbital Cannon Stratagem',
-    imageUrl: '/assets/stratagems/offensive/orbital-laser.png'
+    imageUrl: './assets/stratagems/offensive/orbital-laser.png'
   },
   {
     id: 'orbital-napalm',
@@ -1252,7 +1252,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'flame',
     typeRu: 'Орбитальный удар',
     typeEn: 'Orbital Cannon Stratagem',
-    imageUrl: '/assets/stratagems/offensive/orbital-napalm.png'
+    imageUrl: './assets/stratagems/offensive/orbital-napalm.png'
   },
   {
     id: 'orbital-railcannon',
@@ -1262,7 +1262,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Орбитальный удар',
     typeEn: 'Orbital Cannon Stratagem',
-    imageUrl: '/assets/stratagems/offensive/orbital-railcannon.png'
+    imageUrl: './assets/stratagems/offensive/orbital-railcannon.png'
   },
 
   // --- EAGLE STRIKES ---
@@ -1274,7 +1274,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Авиаудар «Орла»',
     typeEn: 'Hangar Stratagem',
-    imageUrl: '/assets/stratagems/offensive/eagle-strafing.png'
+    imageUrl: './assets/stratagems/offensive/eagle-strafing.png'
   },
   {
     id: 'eagle-airstrike',
@@ -1284,7 +1284,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Авиаудар «Орла»',
     typeEn: 'Hangar Stratagem',
-    imageUrl: '/assets/stratagems/offensive/eagle-airstrike.png'
+    imageUrl: './assets/stratagems/offensive/eagle-airstrike.png'
   },
   {
     id: 'eagle-cluster',
@@ -1294,7 +1294,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Авиаудар «Орла»',
     typeEn: 'Hangar Stratagem',
-    imageUrl: '/assets/stratagems/offensive/eagle-cluster.png'
+    imageUrl: './assets/stratagems/offensive/eagle-cluster.png'
   },
   {
     id: 'eagle-smoke',
@@ -1304,7 +1304,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Авиаудар «Орла»',
     typeEn: 'Hangar Stratagem',
-    imageUrl: '/assets/stratagems/offensive/eagle-smoke.png'
+    imageUrl: './assets/stratagems/offensive/eagle-smoke.png'
   },
   {
     id: 'eagle-napalm',
@@ -1314,7 +1314,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Авиаудар «Орла»',
     typeEn: 'Hangar Stratagem',
-    imageUrl: '/assets/stratagems/offensive/eagle-napalm.png'
+    imageUrl: './assets/stratagems/offensive/eagle-napalm.png'
   },
   {
     id: 'eagle-110mm',
@@ -1324,7 +1324,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Авиаудар «Орла»',
     typeEn: 'Hangar Stratagem',
-    imageUrl: '/assets/stratagems/offensive/eagle-110mm.png'
+    imageUrl: './assets/stratagems/offensive/eagle-110mm.png'
   },
   {
     id: 'eagle-500kg',
@@ -1334,7 +1334,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Авиаудар «Орла»',
     typeEn: 'Hangar Stratagem',
-    imageUrl: '/assets/stratagems/offensive/eagle-500kg.png'
+    imageUrl: './assets/stratagems/offensive/eagle-500kg.png'
   },
 
   // --- SUPPORT WEAPONS ---
@@ -1346,7 +1346,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Вспомогательное оружие',
     typeEn: 'Support Weapon Stratagem',
-    imageUrl: '/assets/stratagems/support/machine-gun.png'
+    imageUrl: './assets/stratagems/support/machine-gun.png'
   },
   {
     id: 'expendable-anti-tank',
@@ -1356,7 +1356,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Вспомогательное оружие',
     typeEn: 'Support Weapon Stratagem',
-    imageUrl: '/assets/stratagems/support/expendable-anti-tank.png'
+    imageUrl: './assets/stratagems/support/expendable-anti-tank.png'
   },
   {
     id: 'stalwart',
@@ -1366,7 +1366,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Вспомогательное оружие',
     typeEn: 'Support Weapon Stratagem',
-    imageUrl: '/assets/stratagems/support/stalwart.png'
+    imageUrl: './assets/stratagems/support/stalwart.png'
   },
   {
     id: 'laser-cannon',
@@ -1376,7 +1376,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Вспомогательное оружие',
     typeEn: 'Support Weapon Stratagem',
-    imageUrl: '/assets/stratagems/support/laser-cannon.png'
+    imageUrl: './assets/stratagems/support/laser-cannon.png'
   },
   {
     id: 'anti-materiel-rifle',
@@ -1386,7 +1386,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Вспомогательное оружие',
     typeEn: 'Support Weapon Stratagem',
-    imageUrl: '/assets/stratagems/support/anti-materiel-rifle.png'
+    imageUrl: './assets/stratagems/support/anti-materiel-rifle.png'
   },
   {
     id: 'grenade-launcher',
@@ -1396,7 +1396,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Вспомогательное оружие',
     typeEn: 'Support Weapon Stratagem',
-    imageUrl: '/assets/stratagems/support/grenade-launcher.png'
+    imageUrl: './assets/stratagems/support/grenade-launcher.png'
   },
   {
     id: 'recoilless-rifle',
@@ -1406,7 +1406,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Вспомогательное оружие',
     typeEn: 'Support Weapon Stratagem',
-    imageUrl: '/assets/stratagems/support/recoilless-rifle.png'
+    imageUrl: './assets/stratagems/support/recoilless-rifle.png'
   },
   {
     id: 'flamethrower',
@@ -1416,7 +1416,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Вспомогательное оружие',
     typeEn: 'Support Weapon Stratagem',
-    imageUrl: '/assets/stratagems/support/flamethrower.png'
+    imageUrl: './assets/stratagems/support/flamethrower.png'
   },
   {
     id: 'heavy-machine-gun',
@@ -1426,7 +1426,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Вспомогательное оружие',
     typeEn: 'Support Weapon Stratagem',
-    imageUrl: '/assets/stratagems/support/heavy-machine-gun.png'
+    imageUrl: './assets/stratagems/support/heavy-machine-gun.png'
   },
   {
     id: 'autocannon',
@@ -1436,7 +1436,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Вспомогательное оружие',
     typeEn: 'Support Weapon Stratagem',
-    imageUrl: '/assets/stratagems/support/autocannon.png'
+    imageUrl: './assets/stratagems/support/autocannon.png'
   },
   {
     id: 'arc-thrower',
@@ -1446,7 +1446,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Вспомогательное оружие',
     typeEn: 'Support Weapon Stratagem',
-    imageUrl: '/assets/stratagems/support/arc-thrower.png'
+    imageUrl: './assets/stratagems/support/arc-thrower.png'
   },
   {
     id: 'quasar-cannon',
@@ -1456,7 +1456,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Вспомогательное оружие',
     typeEn: 'Support Weapon Stratagem',
-    imageUrl: '/assets/stratagems/support/quasar-cannon.png'
+    imageUrl: './assets/stratagems/support/quasar-cannon.png'
   },
   {
     id: 'airburst-rocket',
@@ -1466,7 +1466,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Вспомогательное оружие',
     typeEn: 'Support Weapon Stratagem',
-    imageUrl: '/assets/stratagems/support/airburst-rocket.png'
+    imageUrl: './assets/stratagems/support/airburst-rocket.png'
   },
   {
     id: 'commando',
@@ -1476,7 +1476,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Вспомогательное оружие',
     typeEn: 'Support Weapon Stratagem',
-    imageUrl: '/assets/stratagems/support/commando.png'
+    imageUrl: './assets/stratagems/support/commando.png'
   },
   {
     id: 'spear',
@@ -1486,7 +1486,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Вспомогательное оружие',
     typeEn: 'Support Weapon Stratagem',
-    imageUrl: '/assets/stratagems/support/spear.png'
+    imageUrl: './assets/stratagems/support/spear.png'
   },
   {
     id: 'railgun',
@@ -1496,7 +1496,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Вспомогательное оружие',
     typeEn: 'Support Weapon Stratagem',
-    imageUrl: '/assets/stratagems/support/railgun.png'
+    imageUrl: './assets/stratagems/support/railgun.png'
   },
   {
     id: 'wasp-launcher',
@@ -1506,7 +1506,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Вспомогательное оружие',
     typeEn: 'Support Weapon Stratagem',
-    imageUrl: '/assets/stratagems/support/wasp-launcher.png'
+    imageUrl: './assets/stratagems/support/wasp-launcher.png'
   },
   {
     id: 'breaching-hammer',
@@ -1516,7 +1516,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Вспомогательное оружие',
     typeEn: 'Support Weapon Stratagem',
-    imageUrl: '/assets/stratagems/support/breaching-hammer.png'
+    imageUrl: './assets/stratagems/support/breaching-hammer.png'
   },
   {
     id: 'plas-45-epoch',
@@ -1526,7 +1526,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Вспомогательное оружие',
     typeEn: 'Support Weapon Stratagem',
-    imageUrl: '/assets/stratagems/support/plas-45-epoch.png'
+    imageUrl: './assets/stratagems/support/plas-45-epoch.png'
   },
   {
     id: 'bullet-storm',
@@ -1536,7 +1536,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Вспомогательное оружие',
     typeEn: 'Support Weapon Stratagem',
-    imageUrl: '/assets/stratagems/support/bullet-storm.png'
+    imageUrl: './assets/stratagems/support/bullet-storm.png'
   },
   {
     id: 'speargun',
@@ -1546,7 +1546,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Вспомогательное оружие',
     typeEn: 'Support Weapon Stratagem',
-    imageUrl: '/assets/stratagems/support/speargun.png'
+    imageUrl: './assets/stratagems/support/speargun.png'
   },
   {
     id: 'defoliation-tool',
@@ -1556,7 +1556,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Вспомогательное оружие',
     typeEn: 'Support Weapon Stratagem',
-    imageUrl: '/assets/stratagems/support/defoliation-tool.png'
+    imageUrl: './assets/stratagems/support/defoliation-tool.png'
   },
   {
     id: 'sterilizer',
@@ -1566,7 +1566,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'chemical',
     typeRu: 'Вспомогательное оружие',
     typeEn: 'Support Weapon Stratagem',
-    imageUrl: '/assets/stratagems/support/sterilizer.png'
+    imageUrl: './assets/stratagems/support/sterilizer.png'
   },
   {
     id: 'expendable-napalm',
@@ -1576,7 +1576,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'flame',
     typeRu: 'Вспомогательное оружие',
     typeEn: 'Support Weapon Stratagem',
-    imageUrl: '/assets/stratagems/support/expendable-napalm.png'
+    imageUrl: './assets/stratagems/support/expendable-napalm.png'
   },
   {
     id: 'eat-411-leveller',
@@ -1586,7 +1586,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Вспомогательное оружие',
     typeEn: 'Support Weapon Stratagem',
-    imageUrl: '/assets/stratagems/support/eat-411-leveller.png'
+    imageUrl: './assets/stratagems/support/eat-411-leveller.png'
   },
   {
     id: 'gl-52-deescalator',
@@ -1596,7 +1596,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Вспомогательное оружие',
     typeEn: 'Support Weapon Stratagem',
-    imageUrl: '/assets/stratagems/support/gl-52-deescalator.png'
+    imageUrl: './assets/stratagems/support/gl-52-deescalator.png'
   },
   {
     id: 'gl-28-belt-fed',
@@ -1606,7 +1606,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Вспомогательное оружие',
     typeEn: 'Support Weapon Stratagem',
-    imageUrl: '/assets/stratagems/support/gl-28-belt-fed.png'
+    imageUrl: './assets/stratagems/support/gl-28-belt-fed.png'
   },
   {
     id: 'c4-pack',
@@ -1616,7 +1616,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Вспомогательное оружие',
     typeEn: 'Support Weapon Stratagem',
-    imageUrl: '/assets/stratagems/support/c4-pack.png'
+    imageUrl: './assets/stratagems/support/c4-pack.png'
   },
   {
     id: 'solo-silo',
@@ -1626,7 +1626,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Вспомогательное оружие',
     typeEn: 'Support Weapon Stratagem',
-    imageUrl: '/assets/stratagems/support/solo-silo.png'
+    imageUrl: './assets/stratagems/support/solo-silo.png'
   },
   {
     id: 'cremator',
@@ -1636,7 +1636,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'flame',
     typeRu: 'Вспомогательное оружие',
     typeEn: 'Support Weapon Stratagem',
-    imageUrl: '/assets/stratagems/support/cremator.png'
+    imageUrl: './assets/stratagems/support/cremator.png'
   },
   {
     id: 'maxigun',
@@ -1646,7 +1646,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Вспомогательное оружие',
     typeEn: 'Support Weapon Stratagem',
-    imageUrl: '/assets/stratagems/support/maxigun.png'
+    imageUrl: './assets/stratagems/support/maxigun.png'
   },
   {
     id: 'one-true-flag',
@@ -1656,7 +1656,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Вспомогательное оружие',
     typeEn: 'Support Weapon Stratagem',
-    imageUrl: '/assets/stratagems/support/one-true-flag.png'
+    imageUrl: './assets/stratagems/support/one-true-flag.png'
   },
 
   // --- BACKPACKS ---
@@ -1668,7 +1668,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Рюкзак',
     typeEn: 'Backpack Stratagem',
-    imageUrl: '/assets/stratagems/backpacks/supply-pack.png'
+    imageUrl: './assets/stratagems/backpacks/supply-pack.png'
   },
   {
     id: 'jump-pack',
@@ -1678,7 +1678,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Рюкзак',
     typeEn: 'Backpack Stratagem',
-    imageUrl: '/assets/stratagems/backpacks/jump-pack.png'
+    imageUrl: './assets/stratagems/backpacks/jump-pack.png'
   },
   {
     id: 'ballistic-shield',
@@ -1688,7 +1688,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Рюкзак',
     typeEn: 'Backpack Stratagem',
-    imageUrl: '/assets/stratagems/backpacks/ballistic-shield.png'
+    imageUrl: './assets/stratagems/backpacks/ballistic-shield.png'
   },
   {
     id: 'guard-dog-bullet',
@@ -1698,7 +1698,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Рюкзак',
     typeEn: 'Backpack Stratagem',
-    imageUrl: '/assets/stratagems/backpacks/guard-dog-bullet.png'
+    imageUrl: './assets/stratagems/backpacks/guard-dog-bullet.png'
   },
   {
     id: 'guard-dog-laser',
@@ -1708,7 +1708,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Рюкзак',
     typeEn: 'Backpack Stratagem',
-    imageUrl: '/assets/stratagems/backpacks/guard-dog-laser.png'
+    imageUrl: './assets/stratagems/backpacks/guard-dog-laser.png'
   },
   {
     id: 'shield-generator-pack',
@@ -1718,7 +1718,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Рюкзак',
     typeEn: 'Backpack Stratagem',
-    imageUrl: '/assets/stratagems/backpacks/shield-generator-pack.png'
+    imageUrl: './assets/stratagems/backpacks/shield-generator-pack.png'
   },
   {
     id: 'directional-shield',
@@ -1728,7 +1728,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'truth',
     typeRu: 'Рюкзак',
     typeEn: 'Backpack Stratagem',
-    imageUrl: '/assets/stratagems/backpacks/directional-shield.png'
+    imageUrl: './assets/stratagems/backpacks/directional-shield.png'
   },
   {
     id: 'hot-dog',
@@ -1738,7 +1738,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'flame',
     typeRu: 'Рюкзак',
     typeEn: 'Backpack Stratagem',
-    imageUrl: '/assets/stratagems/backpacks/hot-dog.png'
+    imageUrl: './assets/stratagems/backpacks/hot-dog.png'
   },
   {
     id: 'portable-hellbomb',
@@ -1748,7 +1748,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Рюкзак',
     typeEn: 'Backpack Stratagem',
-    imageUrl: '/assets/stratagems/backpacks/portable-hellbomb.png'
+    imageUrl: './assets/stratagems/backpacks/portable-hellbomb.png'
   },
   {
     id: 'k-9-backpack',
@@ -1758,7 +1758,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Рюкзак',
     typeEn: 'Backpack Stratagem',
-    imageUrl: '/assets/stratagems/backpacks/k-9-backpack.png'
+    imageUrl: './assets/stratagems/backpacks/k-9-backpack.png'
   },
   {
     id: 'hover-pack',
@@ -1768,7 +1768,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Рюкзак',
     typeEn: 'Backpack Stratagem',
-    imageUrl: '/assets/stratagems/backpacks/hover-pack.png'
+    imageUrl: './assets/stratagems/backpacks/hover-pack.png'
   },
   {
     id: 'dog-breath',
@@ -1778,7 +1778,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'chemical',
     typeRu: 'Рюкзак',
     typeEn: 'Backpack Stratagem',
-    imageUrl: '/assets/stratagems/backpacks/dog-breath.png'
+    imageUrl: './assets/stratagems/backpacks/dog-breath.png'
   },
   {
     id: 'warp-pack',
@@ -1788,7 +1788,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Рюкзак',
     typeEn: 'Backpack Stratagem',
-    imageUrl: '/assets/stratagems/backpacks/warp-pack.png'
+    imageUrl: './assets/stratagems/backpacks/warp-pack.png'
   },
 
   // --- VEHICLES ---
@@ -1800,7 +1800,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'exo',
     typeRu: 'Транспорт',
     typeEn: 'Vehicle Stratagem',
-    imageUrl: '/assets/stratagems/defensive/supply-frv.png'
+    imageUrl: './assets/stratagems/defensive/supply-frv.png'
   },
   {
     id: 'incinerator-frv',
@@ -1810,7 +1810,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'exo',
     typeRu: 'Транспорт',
     typeEn: 'Vehicle Stratagem',
-    imageUrl: '/assets/stratagems/defensive/incinerator-frv.png'
+    imageUrl: './assets/stratagems/defensive/incinerator-frv.png'
   },
   {
     id: 'emancipator-exosuit',
@@ -1820,7 +1820,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'exo',
     typeRu: 'Экзокостюм',
     typeEn: 'Exosuit Stratagem',
-    imageUrl: '/assets/stratagems/defensive/emancipator-exosuit.png'
+    imageUrl: './assets/stratagems/defensive/emancipator-exosuit.png'
   },
   {
     id: 'patriot-exosuit',
@@ -1830,7 +1830,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'exo',
     typeRu: 'Экзокостюм',
     typeEn: 'Exosuit Stratagem',
-    imageUrl: '/assets/stratagems/defensive/patriot-exosuit.png'
+    imageUrl: './assets/stratagems/defensive/patriot-exosuit.png'
   },
   {
     id: 'recon-vehicle',
@@ -1840,7 +1840,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'exo',
     typeRu: 'Транспорт',
     typeEn: 'Vehicle Stratagem',
-    imageUrl: '/assets/stratagems/defensive/recon-vehicle.png'
+    imageUrl: './assets/stratagems/defensive/recon-vehicle.png'
   },
   {
     id: 'bastion-tank',
@@ -1850,7 +1850,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'exo',
     typeRu: 'Транспорт',
     typeEn: 'Vehicle Stratagem',
-    imageUrl: '/assets/stratagems/defensive/bastion-tank.png'
+    imageUrl: './assets/stratagems/defensive/bastion-tank.png'
   },
   {
     id: 'breakthrough-exosuit',
@@ -1860,7 +1860,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'exo',
     typeRu: 'Экзокостюм',
     typeEn: 'Exosuit Stratagem',
-    imageUrl: '/assets/stratagems/defensive/breakthrough-exosuit.png'
+    imageUrl: './assets/stratagems/defensive/breakthrough-exosuit.png'
   },
   {
     id: 'lumberer-exosuit',
@@ -1870,7 +1870,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'exo',
     typeRu: 'Экзокостюм',
     typeEn: 'Exosuit Stratagem',
-    imageUrl: '/assets/stratagems/defensive/lumberer-exosuit.png'
+    imageUrl: './assets/stratagems/defensive/lumberer-exosuit.png'
   },
 
   // --- SENTRIES ---
@@ -1882,7 +1882,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Оборонительная стратагема',
     typeEn: 'Robotics Workshop Stratagem',
-    imageUrl: '/assets/stratagems/defensive/machine-gun-sentry.png'
+    imageUrl: './assets/stratagems/defensive/machine-gun-sentry.png'
   },
   {
     id: 'gatling-sentry',
@@ -1892,7 +1892,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Оборонительная стратагема',
     typeEn: 'Robotics Workshop Stratagem',
-    imageUrl: '/assets/stratagems/defensive/gatling-sentry.png'
+    imageUrl: './assets/stratagems/defensive/gatling-sentry.png'
   },
   {
     id: 'autocannon-sentry',
@@ -1902,7 +1902,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Оборонительная стратагема',
     typeEn: 'Robotics Workshop Stratagem',
-    imageUrl: '/assets/stratagems/defensive/autocannon-sentry.png'
+    imageUrl: './assets/stratagems/defensive/autocannon-sentry.png'
   },
   {
     id: 'mortar-sentry',
@@ -1912,7 +1912,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Оборонительная стратагема',
     typeEn: 'Robotics Workshop Stratagem',
-    imageUrl: '/assets/stratagems/defensive/mortar-sentry.png'
+    imageUrl: './assets/stratagems/defensive/mortar-sentry.png'
   },
   {
     id: 'rocket-sentry',
@@ -1922,7 +1922,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Оборонительная стратагема',
     typeEn: 'Robotics Workshop Stratagem',
-    imageUrl: '/assets/stratagems/defensive/rocket-sentry.png'
+    imageUrl: './assets/stratagems/defensive/rocket-sentry.png'
   },
   {
     id: 'tesla-tower',
@@ -1932,7 +1932,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Оборонительная стратагема',
     typeEn: 'Engineering Bay Stratagem',
-    imageUrl: '/assets/stratagems/defensive/tesla-tower.png'
+    imageUrl: './assets/stratagems/defensive/tesla-tower.png'
   },
   {
     id: 'ems-mortar-sentry',
@@ -1942,7 +1942,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Оборонительная стратагема',
     typeEn: 'Robotics Workshop Stratagem',
-    imageUrl: '/assets/stratagems/defensive/ems-mortar-sentry.png'
+    imageUrl: './assets/stratagems/defensive/ems-mortar-sentry.png'
   },
   {
     id: 'laser-sentry',
@@ -1952,7 +1952,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Оборонительная стратагема',
     typeEn: 'Robotics Workshop Stratagem',
-    imageUrl: '/assets/stratagems/defensive/laser-sentry.png'
+    imageUrl: './assets/stratagems/defensive/laser-sentry.png'
   },
   {
     id: 'flame-sentry',
@@ -1962,7 +1962,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'flame',
     typeRu: 'Оборонительная стратагема',
     typeEn: 'Robotics Workshop Stratagem',
-    imageUrl: '/assets/stratagems/defensive/flame-sentry.png'
+    imageUrl: './assets/stratagems/defensive/flame-sentry.png'
   },
   {
     id: 'gas-mortar-sentry',
@@ -1972,7 +1972,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'chemical',
     typeRu: 'Оборонительная стратагема',
     typeEn: 'Robotics Workshop Stratagem',
-    imageUrl: '/assets/stratagems/defensive/gas-mortar-sentry.png'
+    imageUrl: './assets/stratagems/defensive/gas-mortar-sentry.png'
   },
 
   // --- EMPLACEMENTS ---
@@ -1984,7 +1984,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Оборонительная стратагема',
     typeEn: 'Engineering Bay Stratagem',
-    imageUrl: '/assets/stratagems/defensive/anti-personnel-mines.png'
+    imageUrl: './assets/stratagems/defensive/anti-personnel-mines.png'
   },
   {
     id: 'incendiary-mines',
@@ -1994,7 +1994,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Оборонительная стратагема',
     typeEn: 'Engineering Bay Stratagem',
-    imageUrl: '/assets/stratagems/defensive/incendiary-mines.png'
+    imageUrl: './assets/stratagems/defensive/incendiary-mines.png'
   },
   {
     id: 'anti-tank-mines',
@@ -2004,7 +2004,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Оборонительная стратагема',
     typeEn: 'Engineering Bay Stratagem',
-    imageUrl: '/assets/stratagems/defensive/anti-tank-mines.png'
+    imageUrl: './assets/stratagems/defensive/anti-tank-mines.png'
   },
   {
     id: 'shield-relay',
@@ -2014,7 +2014,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Оборонительная стратагема',
     typeEn: 'Engineering Bay Stratagem',
-    imageUrl: '/assets/stratagems/defensive/shield-relay.png'
+    imageUrl: './assets/stratagems/defensive/shield-relay.png'
   },
   {
     id: 'hmg-emplacement',
@@ -2024,7 +2024,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Оборонительная стратагема',
     typeEn: 'Bridge Stratagem',
-    imageUrl: '/assets/stratagems/defensive/hmg-emplacement.png'
+    imageUrl: './assets/stratagems/defensive/hmg-emplacement.png'
   },
   {
     id: 'grenadier-battlement',
@@ -2034,7 +2034,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Оборонительная стратагема',
     typeEn: 'Bridge Stratagem',
-    imageUrl: '/assets/stratagems/defensive/grenadier-battlement.png'
+    imageUrl: './assets/stratagems/defensive/grenadier-battlement.png'
   },
   {
     id: 'gas-mines',
@@ -2044,7 +2044,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'chemical',
     typeRu: 'Оборонительная стратагема',
     typeEn: 'Engineering Bay Stratagem',
-    imageUrl: '/assets/stratagems/defensive/gas-mines.png'
+    imageUrl: './assets/stratagems/defensive/gas-mines.png'
   },
   {
     id: 'anti-tank-emplacement',
@@ -2054,7 +2054,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Оборонительная стратагема',
     typeEn: 'Bridge Stratagem',
-    imageUrl: '/assets/stratagems/defensive/anti-tank-emplacement.png'
+    imageUrl: './assets/stratagems/defensive/anti-tank-emplacement.png'
   },
 
   // --- BODY ARMOR ---
@@ -2066,7 +2066,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Средняя броня',
     typeEn: 'Medium Armor',
-    imageUrl: '/assets/gear/armor/b-01-tactical.png'
+    imageUrl: './assets/gear/armor/b-01-tactical.png'
   },
   {
     id: 'sc-30-trailblazer',
@@ -2076,7 +2076,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Легкая броня',
     typeEn: 'Light Armor',
-    imageUrl: '/assets/gear/armor/sc-30-trailblazer.png'
+    imageUrl: './assets/gear/armor/sc-30-trailblazer.png'
   },
   {
     id: 'ce-35-trench',
@@ -2086,7 +2086,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Средняя броня',
     typeEn: 'Medium Armor',
-    imageUrl: '/assets/gear/armor/ce-35-trench.png'
+    imageUrl: './assets/gear/armor/ce-35-trench.png'
   },
   {
     id: 'fs-23-battle',
@@ -2096,7 +2096,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Тяжелая броня',
     typeEn: 'Heavy Armor',
-    imageUrl: '/assets/gear/armor/fs-23-battle.png'
+    imageUrl: './assets/gear/armor/fs-23-battle.png'
   },
   {
     id: 'ce-81-juggernaut',
@@ -2106,7 +2106,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'superstore',
     typeRu: 'Средняя броня',
     typeEn: 'Medium Armor',
-    imageUrl: '/assets/gear/armor/ce-81-juggernaut.png'
+    imageUrl: './assets/gear/armor/ce-81-juggernaut.png'
   },
   {
     id: 'sa-25-steel',
@@ -2116,7 +2116,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'steeled',
     typeRu: 'Средняя броня',
     typeEn: 'Medium Armor',
-    imageUrl: '/assets/gear/armor/sa-25-steel.png'
+    imageUrl: './assets/gear/armor/sa-25-steel.png'
   },
   {
     id: 'ex-03-prototype',
@@ -2126,7 +2126,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'cutting',
     typeRu: 'Средняя броня',
     typeEn: 'Medium Armor',
-    imageUrl: '/assets/gear/armor/ex-03-prototype.png'
+    imageUrl: './assets/gear/armor/ex-03-prototype.png'
   },
   {
     id: 'ce-27-ground',
@@ -2136,7 +2136,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'democratic',
     typeRu: 'Средняя броня',
     typeEn: 'Medium Armor',
-    imageUrl: '/assets/gear/armor/ce-27-ground.png'
+    imageUrl: './assets/gear/armor/ce-27-ground.png'
   },
   {
     id: 'cw-9-white',
@@ -2146,7 +2146,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'polar',
     typeRu: 'Средняя броня',
     typeEn: 'Medium Armor',
-    imageUrl: '/assets/gear/armor/cw-9-white.png'
+    imageUrl: './assets/gear/armor/cw-9-white.png'
   },
   {
     id: 'ph-9-predator',
@@ -2156,7 +2156,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'viper',
     typeRu: 'Легкая броня',
     typeEn: 'Light Armor',
-    imageUrl: '/assets/gear/armor/ph-9-predator.png'
+    imageUrl: './assets/gear/armor/ph-9-predator.png'
   },
   {
     id: 'i-09-heat',
@@ -2166,7 +2166,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'flame',
     typeRu: 'Лёгкая броня',
     typeEn: 'Light Armor',
-    imageUrl: '/assets/gear/armor/i-09-heat.png'
+    imageUrl: './assets/gear/armor/i-09-heat.png'
   },
   {
     id: 'af-50-noxious',
@@ -2176,7 +2176,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'chemical',
     typeRu: 'Легкая броня',
     typeEn: 'Light Armor',
-    imageUrl: '/assets/gear/armor/af-50-noxious.png'
+    imageUrl: './assets/gear/armor/af-50-noxious.png'
   },
   {
     id: 'uf-16-inspector',
@@ -2186,7 +2186,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'truth',
     typeRu: 'Лёгкая броня',
     typeEn: 'Light Armor',
-    imageUrl: '/assets/gear/armor/uf-16-inspector.png'
+    imageUrl: './assets/gear/armor/uf-16-inspector.png'
   },
 
   // --- HELMETS ---
@@ -2198,7 +2198,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Шлем',
     typeEn: 'Helmet',
-    imageUrl: '/assets/gear/helmets/b-01-tactical-helmet.png'
+    imageUrl: './assets/gear/helmets/b-01-tactical-helmet.png'
   },
   {
     id: 'sc-30-trailblazer-helmet',
@@ -2208,7 +2208,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Шлем',
     typeEn: 'Helmet',
-    imageUrl: '/assets/gear/helmets/sc-30-trailblazer-helmet.png'
+    imageUrl: './assets/gear/helmets/sc-30-trailblazer-helmet.png'
   },
   {
     id: 'sa-25-steel-helmet',
@@ -2218,7 +2218,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'steeled',
     typeRu: 'Шлем',
     typeEn: 'Helmet',
-    imageUrl: '/assets/gear/helmets/sa-25-steel-helmet.png'
+    imageUrl: './assets/gear/helmets/sa-25-steel-helmet.png'
   },
   {
     id: 'ex-03-prototype-helmet',
@@ -2228,7 +2228,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'cutting',
     typeRu: 'Шлем',
     typeEn: 'Helmet',
-    imageUrl: '/assets/gear/helmets/ex-03-prototype-helmet.png'
+    imageUrl: './assets/gear/helmets/ex-03-prototype-helmet.png'
   },
   {
     id: 'ce-27-ground-helmet',
@@ -2238,7 +2238,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'democratic',
     typeRu: 'Шлем',
     typeEn: 'Helmet',
-    imageUrl: '/assets/gear/helmets/ce-27-ground-helmet.png'
+    imageUrl: './assets/gear/helmets/ce-27-ground-helmet.png'
   },
   {
     id: 'cw-9-white-helmet',
@@ -2248,7 +2248,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'polar',
     typeRu: 'Шлем',
     typeEn: 'Helmet',
-    imageUrl: '/assets/gear/helmets/cw-9-white-helmet.png'
+    imageUrl: './assets/gear/helmets/cw-9-white-helmet.png'
   },
   {
     id: 'ph-9-predator-helmet',
@@ -2258,7 +2258,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'viper',
     typeRu: 'Шлем',
     typeEn: 'Helmet',
-    imageUrl: '/assets/gear/helmets/ph-9-predator-helmet.png'
+    imageUrl: './assets/gear/helmets/ph-9-predator-helmet.png'
   },
   {
     id: 'i-09-heat-helmet',
@@ -2268,7 +2268,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'flame',
     typeRu: 'Шлем',
     typeEn: 'Helmet',
-    imageUrl: '/assets/gear/helmets/i-09-heat-helmet.png'
+    imageUrl: './assets/gear/helmets/i-09-heat-helmet.png'
   },
   {
     id: 'af-50-noxious-helmet',
@@ -2278,7 +2278,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'chemical',
     typeRu: 'Шлем',
     typeEn: 'Helmet',
-    imageUrl: '/assets/gear/helmets/af-50-noxious-helmet.png'
+    imageUrl: './assets/gear/helmets/af-50-noxious-helmet.png'
   },
   {
     id: 'uf-16-inspector-helmet',
@@ -2288,7 +2288,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'truth',
     typeRu: 'Шлем',
     typeEn: 'Helmet',
-    imageUrl: '/assets/gear/helmets/uf-16-inspector-helmet.png'
+    imageUrl: './assets/gear/helmets/uf-16-inspector-helmet.png'
   },
 
   // --- CAPES ---
@@ -2300,7 +2300,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Плащ',
     typeEn: 'Cape',
-    imageUrl: '/assets/gear/capes/will-of-people.png'
+    imageUrl: './assets/gear/capes/will-of-people.png'
   },
   {
     id: 'crimson-rider',
@@ -2310,7 +2310,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'steeled',
     typeRu: 'Плащ',
     typeEn: 'Cape',
-    imageUrl: '/assets/gear/capes/crimson-rider.png'
+    imageUrl: './assets/gear/capes/crimson-rider.png'
   },
   {
     id: 'mantle-of-crit-over',
@@ -2320,7 +2320,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Плащ',
     typeEn: 'Cape',
-    imageUrl: '/assets/gear/capes/mantle-of-crit-over.png'
+    imageUrl: './assets/gear/capes/mantle-of-crit-over.png'
   },
   {
     id: 'bot-slayer',
@@ -2330,7 +2330,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Плащ',
     typeEn: 'Cape',
-    imageUrl: '/assets/gear/capes/bot-slayer.png'
+    imageUrl: './assets/gear/capes/bot-slayer.png'
   },
   {
     id: 'executioners-canopy',
@@ -2340,7 +2340,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'democratic',
     typeRu: 'Плащ',
     typeEn: 'Cape',
-    imageUrl: '/assets/gear/capes/executioners-canopy.png'
+    imageUrl: './assets/gear/capes/executioners-canopy.png'
   },
   {
     id: 'crest-of-shattered',
@@ -2350,7 +2350,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'polar',
     typeRu: 'Плащ',
     typeEn: 'Cape',
-    imageUrl: '/assets/gear/capes/crest-of-shattered.png'
+    imageUrl: './assets/gear/capes/crest-of-shattered.png'
   },
   {
     id: 'mark-of-the-crimson',
@@ -2360,7 +2360,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'viper',
     typeRu: 'Плащ',
     typeEn: 'Cape',
-    imageUrl: '/assets/gear/capes/mark-of-the-crimson.png'
+    imageUrl: './assets/gear/capes/mark-of-the-crimson.png'
   },
   {
     id: 'eclipse-of-valian',
@@ -2370,7 +2370,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'flame',
     typeRu: 'Плащ',
     typeEn: 'Cape',
-    imageUrl: '/assets/gear/capes/eclipse-of-valian.png'
+    imageUrl: './assets/gear/capes/eclipse-of-valian.png'
   },
   {
     id: 'standard-of-authority',
@@ -2380,6 +2380,6 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'truth',
     typeRu: 'Плащ',
     typeEn: 'Cape',
-    imageUrl: '/assets/gear/capes/standard-of-authority.png'
+    imageUrl: './assets/gear/capes/standard-of-authority.png'
   }
 ];
