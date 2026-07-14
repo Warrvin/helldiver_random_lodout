@@ -12,6 +12,7 @@ export interface LoadoutItem {
   warbond: string; // matches Warbond id
   typeRu?: string;
   typeEn?: string;
+  imageUrl?: string;
 }
 
 export const WARBONDS: Warbond[] = [
@@ -39,25 +40,28 @@ export const ITEMS: LoadoutItem[] = [
     category: 'primary',
     warbond: 'default',
     typeRu: 'Штурмовая винтовка',
-    typeEn: 'Assault Rifle'
+    typeEn: 'Assault Rifle',
+    imageUrl: '/assets/weapons/primary/assault-rifles/600px-AR-23_Liberator_Primary_Render.webp'
   },
   {
     id: 'liberator-penetrator',
-    nameRu: 'AR-23P «Освободитель-пробивной»',
+    nameRu: 'AR-23P «Пробойный-освободитель»',
     nameEn: 'AR-23P Liberator Penetrator',
     category: 'primary',
     warbond: 'default',
     typeRu: 'Штурмовая винтовка',
     typeEn: 'Assault Rifle'
+	imageUrl: '/assets/weapons/primary/assault-rifles/600px-AR-23P_Liberator_Penetrator_Primary_Render.webp'
   },
   {
     id: 'liberator-concussive',
-    nameRu: 'AR-23C «Взрывной освободитель»',
+    nameRu: 'AR-23C «Сотрясающий освободитель»',
     nameEn: 'AR-23C Liberator Concussive',
     category: 'primary',
     warbond: 'steeled',
     typeRu: 'Штурмовая винтовка',
     typeEn: 'Assault Rifle'
+	imageUrl: '/assets/weapons/primary/assault-rifles/600px-AR-23C_Liberator_Concussive_Primary_Render.webp'
   },
   {
     id: 'sta-52-ar',
@@ -67,15 +71,17 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Штурмовая винтовка',
     typeEn: 'Assault Rifle'
+	imageUrl: '/assets/weapons/primary/assault-rifles/600px-StA-52_Assault_Rifle_Primary_Render.webp'
   },
   {
     id: 'ar-32-pacifier',
-    nameRu: 'AR-32 «Миротворец»',
+    nameRu: 'AR-32 «Усмиритель»',
     nameEn: 'AR-32 Pacifier',
     category: 'primary',
     warbond: 'truth',
     typeRu: 'Штурмовая винтовка',
     typeEn: 'Assault Rifle'
+	imageUrl: '/assets/weapons/primary/assault-rifles/600px-AR-32_Pacifier_Primary_Render.webp'
   },
   {
     id: 'ar-2-coyote',
@@ -85,6 +91,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Штурмовая винтовка',
     typeEn: 'Assault Rifle'
+	imageUrl: '/assets/weapons/primary/assault-rifles/AR-2_Coyote_Primary_Render.webp'
   },
   {
     id: 'ma5c-ar',
