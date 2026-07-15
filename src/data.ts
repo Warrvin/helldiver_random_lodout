@@ -895,7 +895,7 @@ export const ITEMS: LoadoutItem[] = [
   },
   {
     id: 'bullet-storm',
-    nameRu: 'MGX-42 «Ливень пуль»',
+    nameRu: 'MGX-42 «Шквал пуль»',
     nameEn: 'MGX-42 Bullet Storm',
     category: 'support',
     warbond: 'redacted',
@@ -1624,7 +1624,7 @@ export const ITEMS: LoadoutItem[] = [
   },
   {
     id: 'plas-39-accelerator',
-    nameRu: 'PLAS-39 «Ускоритель»',
+    nameRu: 'PLAS-39 «Акселераторная винтовка»',
     nameEn: 'PLAS-39 Accelerator Rifle',
     category: 'primary',
     warbond: 'redacted',
@@ -1939,7 +1939,7 @@ export const ITEMS: LoadoutItem[] = [
   },
   {
     id: 'smg-flam-34-stoker',
-    nameRu: 'SMG/FLAM-34 «Кочегар»',
+    nameRu: 'SMG/FLAM-34 «Топка»',
     nameEn: 'SMG/FLAM-34 Stoker',
     category: 'primary',
     warbond: 'flame',
@@ -1952,7 +1952,7 @@ export const ITEMS: LoadoutItem[] = [
   // Melee
   {
     id: 'cqc-19-stun-lance',
-    nameRu: 'CQC-19 «Шоковое копье»',
+    nameRu: 'CQC-19 «Оглушающее копье»',
     nameEn: 'CQC-19 Stun Lance',
     category: 'secondary',
     warbond: 'redacted',
@@ -2144,7 +2144,7 @@ export const ITEMS: LoadoutItem[] = [
   },
   {
     id: 'p-35-reeducator',
-    nameRu: 'P-35 «Перевоспитатель»',
+    nameRu: 'P-35 «Реформатор»',
     nameEn: 'P-35 Re-Educator',
     category: 'secondary',
     warbond: 'redacted',
@@ -2328,7 +2328,7 @@ export const ITEMS: LoadoutItem[] = [
   },
   {
     id: 'cw-9-white-helmet',
-    nameRu: 'Шлем CW-9 «Белая мгла»',
+    nameRu: 'Шлем CW-9 «Белая волк»',
     nameEn: 'CW-9 White Out Helmet',
     category: 'helmet',
     warbond: 'polar',
