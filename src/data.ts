@@ -66,7 +66,7 @@ export const ITEMS: LoadoutItem[] = [
   },
   {
     id: 'booster-expert-pilot',
-    nameRu: 'Экстракция с экспертом-пилотом',
+    nameRu: 'Мастер воздушной эвакуации',
     nameEn: 'Expert Extraction Pilot',
     category: 'booster',
     warbond: 'polar',
@@ -106,7 +106,7 @@ export const ITEMS: LoadoutItem[] = [
   },
   {
     id: 'booster-localization-confusion',
-    nameRu: 'Сбой локализации',
+    nameRu: 'Позиционное заблуждение',
     nameEn: 'Localization Confusion',
     category: 'booster',
     warbond: 'democratic',
@@ -181,7 +181,7 @@ export const ITEMS: LoadoutItem[] = [
   // Heavy
   {
     id: 'fs-23-battle',
-    nameRu: 'FS-23 «Боевой мастер»',
+    nameRu: 'FS-23 «Воевода»',
     nameEn: 'FS-23 Battle Master',
     category: 'armor',
     warbond: 'default',
@@ -253,7 +253,7 @@ export const ITEMS: LoadoutItem[] = [
   },
   {
     id: 'ce-27-ground',
-    nameRu: 'CE-27 «Наземный штурмовик»',
+    nameRu: 'CE-27 «Первопробиватель»',
     nameEn: 'CE-27 Ground Breaker',
     category: 'armor',
     warbond: 'democratic',
@@ -520,7 +520,7 @@ export const ITEMS: LoadoutItem[] = [
   },
   {
     id: 'eagle-airstrike',
-    nameRu: 'Орёл: Авиаудар',
+    nameRu: 'Орёл: Воздушный налет',
     nameEn: 'Eagle Airstrike',
     category: 'offensive',
     warbond: 'default',
@@ -591,7 +591,7 @@ export const ITEMS: LoadoutItem[] = [
   },
   {
     id: 'orbital-airburst',
-    nameRu: 'Орбитальный кассетный удар',
+    nameRu: 'Орбитальная воздушная бомба',
     nameEn: 'Orbital Airburst Strike',
     category: 'offensive',
     warbond: 'default',
@@ -744,7 +744,7 @@ export const ITEMS: LoadoutItem[] = [
   },
   {
     id: 'hover-pack',
-    nameRu: 'LIFT-860 «Летающий ранец»',
+    nameRu: 'LIFT-860 «Реактивный ранец»',
     nameEn: 'LIFT-860 Hover Pack',
     category: 'backpack',
     warbond: 'redacted',
@@ -774,7 +774,7 @@ export const ITEMS: LoadoutItem[] = [
   },
   {
     id: 'guard-dog-laser',
-    nameRu: 'AX/LAS-5 «Охранитель»',
+    nameRu: 'AX/LAS-5 «Аппарат»',
     nameEn: 'AX/LAS-5 Rover',
     category: 'backpack',
     warbond: 'default',
@@ -820,7 +820,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'redacted',
     typeRu: 'Рюкзак',
     typeEn: 'Backpack Stratagem',
-    imageUrl: './assets/stratagems/supply_permit/support_weapons/K-9_Stratagem_Icon_Background.png',
+    imageUrl: './assets/stratagems/supply_permit/backpacks/K-9_Stratagem_Icon_Background.png',
   },
   // Support Weapons
   {
@@ -1228,7 +1228,7 @@ export const ITEMS: LoadoutItem[] = [
   // --- THROWABLES/SPECIAL ---
   {
     id: 'g-109-urchin',
-    nameRu: 'G-109 «Морской еж»',
+    nameRu: 'G-109 «Озорник»',
     nameEn: 'G-109 Urchin',
     category: 'throwable',
     warbond: 'redacted',
@@ -1248,7 +1248,7 @@ export const ITEMS: LoadoutItem[] = [
   },
   {
     id: 'g-13-incendiary-impact',
-    nameRu: 'G-13 «Контактная зажигательная»',
+    nameRu: 'G-13 «Зажигательная ударная»',
     nameEn: 'G-13 Incendiary Impact',
     category: 'throwable',
     warbond: 'flame',
@@ -1827,7 +1827,7 @@ export const ITEMS: LoadoutItem[] = [
   },
   {
     id: 'sg-97-sweeper',
-    nameRu: 'SG-97 «Дворник»',
+    nameRu: 'SG-97 «Чистильщик»',
     nameEn: 'SG-97 Sweeper',
     category: 'primary',
     warbond: 'redacted',
@@ -2164,7 +2164,7 @@ export const ITEMS: LoadoutItem[] = [
   },
   {
     id: 'loyalist',
-    nameRu: 'PLAS-15 «Лоялист»',
+    nameRu: 'PLAS-15 «Верный»',
     nameEn: 'PLAS-15 Loyalist',
     category: 'secondary',
     warbond: 'truth',
@@ -2174,7 +2174,7 @@ export const ITEMS: LoadoutItem[] = [
   },
   {
     id: 'bushwhacker',
-    nameRu: 'SG-22 «Бушвокер»',
+    nameRu: 'SG-22 «Партизан»',
     nameEn: 'SG-22 Bushwhacker',
     category: 'secondary',
     warbond: 'viper',
