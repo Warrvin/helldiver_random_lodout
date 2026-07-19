@@ -1871,7 +1871,7 @@ export const ITEMS: LoadoutItem[] = [
     warbond: 'default',
     typeRu: 'Вспомогательное оружие',
     typeEn: 'Support Weapon Stratagem',
-    imageUrl: './assets/stratagems/supply_permit/support_weapons/Speargun_Stratagem_Icon_Background.png',
+    imageUrl: './assets/stratagems/supply_permit/support_weapons/Spear_Stratagem_Icon_Background.png',
   },
   {
     id: 'speargun',
