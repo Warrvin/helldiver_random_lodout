@@ -88,28 +88,52 @@ export default function App() {
     triggerRandomization(loadedKeys);
   }, []);
 
-  const selectRandom = (pool: LoadoutItem[], fallback: LoadoutItem): LoadoutItem => {
-    if (pool.length === 0) return fallback;
-    return pool[Math.floor(Math.random() * pool.length)];
+ // 1. Функция получения случайного индекса с защитой от предсказуемости
+  const getRandomIndex = (max: number): number => {
+    if (max <= 0) return 0;
+    const cryptoObj = window.crypto || (window as any).msCrypto;
+    if (cryptoObj && cryptoObj.getRandomValues) {
+      const randomBuffer = new Uint32Array(1);
+      cryptoObj.getRandomValues(randomBuffer);
+      return randomBuffer[0] % max;
+    }
+    return Math.floor(Math.random() * max);
   };
 
+  // 2. Алгоритм тасования Фишера — Йетса (гарантирует хаотичность)
+  const shuffleArray = <T,>(array: T[]): T[] => {
+    const arr = [...array];
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = getRandomIndex(i + 1);
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
+  };
+
+  // 3. Выбор случайного предмета
+  const selectRandom = (pool: LoadoutItem[], fallback: LoadoutItem): LoadoutItem => {
+    if (pool.length === 0) return fallback;
+    const index = getRandomIndex(pool.length);
+    return pool[index];
+  };
+
+  // 4. Логика распределения стратагем
   const rollStratagems = (pool: LoadoutItem[], count = 4, singleSupport: boolean, singleBackpack: boolean): LoadoutItem[] => {
     let attempts = 0;
     while (attempts < 500) {
       let result: LoadoutItem[] = [];
-      let poolCopy = [...pool];
-      poolCopy.sort(() => Math.random() - 0.5);
+      let poolCopy = shuffleArray(pool); // Используем новое хаотичное перемешивание
 
       for (let item of poolCopy) {
         if (result.length >= count) break;
 
-        // Check single support weapon restriction
+        // Ограничение на оружие поддержки
         if (item.category === 'support' && singleSupport) {
           const supportCount = result.filter(r => r.category === 'support').length;
           if (supportCount >= 1) continue;
         }
 
-        // Check single backpack restriction
+        // Ограничение на рюкзаки
         if (item.category === 'backpack' && singleBackpack) {
           const backpackCount = result.filter(r => r.category === 'backpack').length;
           if (backpackCount >= 1) continue;
@@ -124,9 +148,9 @@ export default function App() {
       attempts++;
     }
 
-    // Fallback: simple randomized selection
+    // Запасной вариант при сбое ограничений (тоже перемешивается хаотично)
     let fallbackResult: LoadoutItem[] = [];
-    let uniquePool = [...pool].sort(() => Math.random() - 0.5);
+    let uniquePool = shuffleArray(pool);
     for (let item of uniquePool) {
       if (fallbackResult.length >= count) break;
       fallbackResult.push(item);
