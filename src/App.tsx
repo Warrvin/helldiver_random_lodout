@@ -14,7 +14,6 @@ import {
   Zap, 
   Compass, 
   Cpu, 
-  ChevronDown, 
   ChevronUp, 
   AlertTriangle, 
   BookOpen, 
@@ -871,44 +870,6 @@ export default function App() {
                         isRule={true}
                       />
                     </div>
-                  </div>
-
-                  {/* URL COMPATIBILITY FLAGS (LEGACY / BACKGROUND CHECKS) */}
-                  <div className="border-t border-neutral-800 pt-4">
-                    <details className="group">
-                      <summary className="text-[10px] font-mono text-neutral-500 hover:text-neutral-300 uppercase tracking-widest cursor-pointer select-none list-none flex items-center justify-between">
-                        <span>СОВМЕСТИМОСТЬ ПАКЕТОВ (LEGACY)</span>
-                        <ChevronDown className="w-3.5 h-3.5 group-open:rotate-180 transition-transform" />
-                      </summary>
-                      <div className="grid grid-cols-2 gap-2 mt-3 text-[10px] font-mono">
-                        {[
-                          { id: 'attachments', label: 'Attachments' },
-                          { id: 'control', label: 'Control' },
-                          { id: 'dust', label: 'Dust Pack' },
-                          { id: 'entrenched', label: 'Entrenched' },
-                          { id: 'justice', label: 'Justice Pack' },
-                          { id: 'killzone', label: 'Killzone' },
-                          { id: 'law', label: 'Law Enforcer' },
-                          { id: 'limited', label: 'Limited Pack' },
-                          { id: 'masters', label: 'Masters DLC' },
-                          { id: 'odst', label: 'ODST Droppers' },
-                          { id: 'python', label: 'Python Set' },
-                          { id: 'servants', label: 'Democr. Servants' },
-                          { id: 'siege', label: 'Siege Specialist' },
-                          { id: 'urban', label: 'Urban Camo' },
-                        ].map(legacy => (
-                          <label key={legacy.id} className="flex items-center gap-1.5 cursor-pointer hover:text-[#FFE000] py-0.5">
-                            <input
-                              type="checkbox"
-                              checked={enabledKeys.includes(legacy.id)}
-                              onChange={() => toggleKey(legacy.id)}
-                              className="accent-[#FFE000]"
-                            />
-                            <span>{legacy.label}</span>
-                          </label>
-                        ))}
-                      </div>
-                    </details>
                   </div>
 
                 </div>
