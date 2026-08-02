@@ -118,44 +118,53 @@ export default function App() {
   };
 
   // 4. Логика распределения стратагем
-  const rollStratagems = (pool: LoadoutItem[], count = 4, singleSupport: boolean, singleBackpack: boolean): LoadoutItem[] => {
-    let attempts = 0;
-    while (attempts < 500) {
-      let result: LoadoutItem[] = [];
-      let poolCopy = shuffleArray(pool); // Используем новое хаотичное перемешивание
+  // Режим 1 (singleSupport/singleBackpack = true): не более 1 оружия поддержки и 1 рюкзака.
+  // Режим 2 (оба флага = false): полный рандом без ограничений по категориям.
+  // Однопроходный алгоритм: при ограничении "не больше 1 на категорию" жадный проход
+  // по случайной перестановке пула ВСЕГДА даёт максимально возможное количество
+  // предметов за один раз — повторные попытки (было до 500) тут ничего не меняют,
+  // кроме лишней нагрузки, поэтому от retry-цикла отказываемся.
+  const rollStratagems = (
+    pool: LoadoutItem[],
+    count = 4,
+    singleSupport: boolean,
+    singleBackpack: boolean
+  ): LoadoutItem[] => {
+    const shuffled = shuffleArray(pool);
+    const result: LoadoutItem[] = [];
+    let supportUsed = false;
+    let backpackUsed = false;
 
-      for (let item of poolCopy) {
+    for (const item of shuffled) {
+      if (result.length >= count) break;
+
+      if (item.category === 'support') {
+        if (singleSupport && supportUsed) continue;
+      }
+      if (item.category === 'backpack') {
+        if (singleBackpack && backpackUsed) continue;
+      }
+
+      result.push(item);
+      if (item.category === 'support') supportUsed = true;
+      if (item.category === 'backpack') backpackUsed = true;
+    }
+
+    // Если пул слишком мал/однобок и после первого прохода не набрали нужное
+    // количество (например все оставшиеся предметы — второй support при singleSupport),
+    // добираем недостающее из оставшихся предметов пула, уже без ограничений,
+    // чтобы слоты не оставались пустыми.
+    if (result.length < count && result.length < pool.length) {
+      const usedIds = new Set(result.map(r => r.id));
+      for (const item of shuffled) {
         if (result.length >= count) break;
-
-        // Ограничение на оружие поддержки
-        if (item.category === 'support' && singleSupport) {
-          const supportCount = result.filter(r => r.category === 'support').length;
-          if (supportCount >= 1) continue;
-        }
-
-        // Ограничение на рюкзаки
-        if (item.category === 'backpack' && singleBackpack) {
-          const backpackCount = result.filter(r => r.category === 'backpack').length;
-          if (backpackCount >= 1) continue;
-        }
-
+        if (usedIds.has(item.id)) continue;
         result.push(item);
+        usedIds.add(item.id);
       }
-
-      if (result.length === count || (pool.length < count && result.length === pool.length)) {
-        return result;
-      }
-      attempts++;
     }
 
-    // Запасной вариант при сбое ограничений (тоже перемешивается хаотично)
-    let fallbackResult: LoadoutItem[] = [];
-    let uniquePool = shuffleArray(pool);
-    for (let item of uniquePool) {
-      if (fallbackResult.length >= count) break;
-      fallbackResult.push(item);
-    }
-    return fallbackResult;
+    return result;
   };
 
   // The actual randomized generator function
@@ -298,33 +307,19 @@ export default function App() {
           let filteredPool = stratPool.filter(item => !otherIds.includes(item.id));
           if (filteredPool.length === 0) filteredPool = stratPool;
 
-          let attempts = 0;
-          let selected: LoadoutItem | null = null;
-          while (attempts < 200) {
-            const candidate = selectRandom(filteredPool, filteredPool[0]);
-            
-            if (candidate.category === 'support' && singleSupport) {
-              const supportCount = otherStrats.filter(s => s.category === 'support').length;
-              if (supportCount >= 1) {
-                attempts++;
-                continue;
-              }
-            }
-            if (candidate.category === 'backpack' && singleBackpack) {
-              const backpackCount = otherStrats.filter(s => s.category === 'backpack').length;
-              if (backpackCount >= 1) {
-                attempts++;
-                continue;
-              }
-            }
-            
-            selected = candidate;
-            break;
-          }
+          // Сразу вычисляем, заняты ли ограниченные категории другими слотами —
+          // и одним проходом фильтруем допустимых кандидатов, без угадывания вслепую.
+          const supportTaken = singleSupport && otherStrats.some(s => s.category === 'support');
+          const backpackTaken = singleBackpack && otherStrats.some(s => s.category === 'backpack');
 
-          if (!selected) {
-            selected = selectRandom(filteredPool, filteredPool[0]);
-          }
+          let allowedPool = filteredPool.filter(item => {
+            if (item.category === 'support' && supportTaken) return false;
+            if (item.category === 'backpack' && backpackTaken) return false;
+            return true;
+          });
+          if (allowedPool.length === 0) allowedPool = filteredPool;
+
+          const selected = selectRandom(allowedPool, allowedPool[0]);
 
           const updatedStrats = [...newLoadout.stratagems];
           updatedStrats[index] = selected;
