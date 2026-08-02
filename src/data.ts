@@ -16,18 +16,19 @@ export interface LoadoutItem {
 }
 
 export const WARBONDS: Warbond[] = [
-  { id: 'default', nameRu: 'Мобилизация!', nameEn: 'Helldivers Mobilize!' },
-  { id: 'steeled', nameRu: 'Закаленные ветераны', nameEn: 'Steeled Veterans' },
-  { id: 'cutting', nameRu: 'На острие', nameEn: 'Cutting Edge' },
-  { id: 'democratic', nameRu: 'Демократический детонатор', nameEn: 'Democratic Detonation' },
-  { id: 'polar', nameRu: 'Полярные патриоты', nameEn: 'Polar Patriots' },
-  { id: 'viper', nameRu: 'Коммандос Вайпер', nameEn: 'Viper Commandos' },
-  { id: 'flame', nameRu: 'Пламя свободы', nameEn: 'Freedom\'s Flame' },
-  { id: 'chemical', nameRu: 'Химические агенты', nameEn: 'Chemical Agents' },
-  { id: 'truth', nameRu: 'Стражи истины', nameEn: 'Truth Enforcers' },
-  { id: 'superstore', nameRu: 'Супермагазин брони', nameEn: 'Superstore' },
-  { id: 'exo', nameRu: 'Экзокостюмы', nameEn: 'Exosuits' },
-  { id: 'redacted', nameRu: 'Секретные разработки', nameEn: 'Redacted' },
+	{ id: 'default', nameRu: 'Мобилизация!', nameEn: 'Helldivers Mobilize!' },
+	{ id: 'steeled', nameRu: 'Закаленные ветераны', nameEn: 'Steeled Veterans' },
+	{ id: 'cutting', nameRu: 'На острие', nameEn: 'Cutting Edge' },
+	{ id: 'democratic', nameRu: 'Демократический детонатор', nameEn: 'Democratic Detonation' },
+	{ id: 'polar', nameRu: 'Полярные патриоты', nameEn: 'Polar Patriots' },
+	{ id: 'viper', nameRu: 'Коммандос Вайпер', nameEn: 'Viper Commandos' },
+	{ id: 'flame', nameRu: 'Пламя свободы', nameEn: 'Freedom\'s Flame' },
+	{ id: 'chemical', nameRu: 'Химические агенты', nameEn: 'Chemical Agents' },
+	{ id: 'truth', nameRu: 'Стражи истины', nameEn: 'Truth Enforcers' },
+	{ id: 'superstore', nameRu: 'Супермагазин брони', nameEn: 'Superstore' },
+	{ id: 'exo', nameRu: 'Экзокостюмы', nameEn: 'Exosuits' },
+	{ id: 'redacted', nameRu: 'Секретные разработки', nameEn: 'Redacted' },
+	{ id: 'warhammer', nameRu: '', nameEN: 'Castellan’s Creed'},
 ];
 
 export const ITEMS: LoadoutItem[] = [
@@ -179,6 +180,16 @@ export const ITEMS: LoadoutItem[] = [
 
   // --- GEAR/ARMOR ---
   // Heavy
+  // {
+  //  id: 'tg-122-demo-trooper',
+  //  nameRu: 'TG-122 ',
+  //  nameEn: 'TG-122 Demo-Trooper',
+  //  category: 'armor',
+  //  warbond: 'warhammer',
+  //  typeRu: 'Тяжелая броня',
+  //  typeEn: 'Heavy Armor',
+  //  imageUrl: './assets/gear/armor/heavy/TG-122_Demo-Trooper_Armor_Icon.png',
+  // },
    {
     id: 'fs-05-marksman',
     nameRu: 'FS-05 «Меткий стрелок»',
@@ -731,6 +742,16 @@ export const ITEMS: LoadoutItem[] = [
     imageUrl: './assets/gear/armor/light/123px-O-3_Free_Spirit_Armor_Render.png',
   },
   // Medium
+  //{
+  //  id: 'tg-8-sharpshooter',
+  //  nameRu: 'TG-8 ',
+  //  nameEn: 'TG-8 Sharpshooter',
+  //  category: 'armor',
+  //  warbond: 'warhammer',
+  //  typeRu: 'Средняя броня',
+  //  typeEn: 'Medium Armor',
+  //  imageUrl: './assets/gear/armor/medium/TG-8_Sharpshooter_Armor_Icon.png',
+  //},
   {
     id: 'b-01-tactical',
     nameRu: 'B-01 «Тактик»',
@@ -1603,6 +1624,16 @@ export const ITEMS: LoadoutItem[] = [
     imageUrl: './assets/stratagems/supply_permit/backpacks/K-9_Stratagem_Icon_Background.png',
   },
   // Support Weapons
+  //{
+  //  id: '40-k-meltagun',
+  // nameRu: '40-K ',
+  //  nameEn: '40-K Meltagun',
+  //  category: 'support',
+  //  warbond: 'warhammer',
+  //  typeRu: 'Вспомогательное оружие',
+  //  typeEn: 'Support Weapon Stratagem',
+  //  imageUrl: './assets/stratagems/supply_permit/support_weapons/',
+  //},
   {
     id: 'airburst-rocket',
     nameRu: 'RL-77 «Ракетница с подрывом в воздухе»',
