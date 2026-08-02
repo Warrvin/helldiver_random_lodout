@@ -28,7 +28,7 @@ export const WARBONDS: Warbond[] = [
 	{ id: 'superstore', nameRu: 'Супермагазин брони', nameEn: 'Superstore' },
 	{ id: 'exo', nameRu: 'Экзокостюмы', nameEn: 'Exosuits' },
 	{ id: 'redacted', nameRu: 'Секретные разработки', nameEn: 'Redacted' },
-	{ id: 'warhammer', nameRu: '', nameEN: 'Castellan’s Creed'},
+	{ id: 'warhammer', nameRu: 'Пока не ясно', nameEN: 'Castellan’s Creed' },
 ];
 
 export const ITEMS: LoadoutItem[] = [
