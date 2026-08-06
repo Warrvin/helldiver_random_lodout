@@ -6,7 +6,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: '/helldiver_random_lodout/',
+    base: '/helldiver_random_lodaut/',
     plugins: [
       react(), 
       tailwindcss(),
